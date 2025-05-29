@@ -46,6 +46,7 @@ results = memory.query(dept='tech', salary=80000, top_n=2, sparse=True)
 
 #  Example 2) Dense query - match all features  
 results = memory.query(age=30, salary=85000, sparse=False)
+```
 
 ## Example 1 Results
 
