@@ -11,7 +11,7 @@ from typing import Dict, List, Any, Optional, Union
 class HopfieldTableMemory:
     def __init__(self, dataframe: pd.DataFrame):
         """
-        Initialize Hopfield-based table memory for similarity search and pattern completion.
+        Initialize Hopfield-based table memory for similarity search.
         
         Args:
             dataframe: Input pandas DataFrame to store as patterns
@@ -249,7 +249,6 @@ class HopfieldTableMemory:
                     distances = torch.zeros(len(self.df))
             else:
                 # Dense query: match on all features
-                print(f"DEBUG: Using DENSE query (sparse={sparse}, kwargs_len={len(kwargs)}, total_cols={len(self.df.columns)})")
                 query_tensor = self._encode_query(**kwargs)
                 
                 # Compute distances from query to all stored patterns
@@ -281,27 +280,6 @@ class HopfieldTableMemory:
             })
         
         return results
-    
-    def complete_pattern(self, **kwargs) -> pd.Series:
-        """
-        Complete a partial pattern using Hopfield associative memory.
-        
-        Args:
-            **kwargs: Partial pattern specification
-            
-        Returns:
-            Completed pattern as pandas Series
-        """
-        # Use sparse query to find patterns that match the specified constraints
-        matches = self.query(sparse=True, top_n=min(5, len(self.df)), **kwargs)
-        
-        if not matches:
-            # Fallback to closest match if no good matches found
-            matches = self.query(sparse=False, top_n=1, **kwargs)
-        
-        # Return the best match (highest confidence)
-        best_match = matches[0]
-        return best_match["matched_row"]
     
     def _visualize_distances(self, distances: torch.Tensor, highlight_indices: torch.Tensor) -> None:
         """Visualize the distance distribution with highlighted matches."""

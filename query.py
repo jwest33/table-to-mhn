@@ -65,22 +65,29 @@ def main():
     
     print("\n" + "="*60 + "\n")
     
-    # Example 3: Pattern completion
-    print("Example 3: Pattern completion - Complete profile for age=33, dept='sales'")
+    # Example 3: Pattern completion vs Query - Show the difference
+    print("Example 3: Pattern completion vs Query - Understanding the difference")
     
     # Debug what we're looking for
     memory.debug_query(sparse=True, age=33, dept='sales')
     
-    # Show what a sparse query for these constraints would return
-    print("First, let's see what matches these constraints:")
-    constraint_matches = memory.query(age=33, dept='sales', top_n=3, sparse=True)
-    for i, match in enumerate(constraint_matches, 1):
-        print(f"Constraint match {i}: Index {match['index']}, Distance {match['distance']:.4f}")
+    print("\n--- QUERY (finds existing similar records) ---")
+    query_matches = memory.query(age=33, dept='sales', top_n=3, sparse=True)
+    for i, match in enumerate(query_matches, 1):
+        print(f"Query match {i}: Index {match['index']}, Distance {match['distance']:.4f}")
         print(f"  {match['matched_row'].to_dict()}")
     
+    print("\n--- PATTERN COMPLETION (reconstructs/blends patterns) ---")
     completed = memory.complete_pattern(age=33, dept='sales')
-    print("\nCompleted Pattern:")
+    print("Completed Pattern (may be reconstructed, not from stored data):")
     print(completed)
+    print(f"Completed pattern dict: {completed.to_dict()}")
+    
+    print("\n--- KEY DIFFERENCES ---")
+    print("• Query: Returns existing records that match your criteria")
+    print("• Complete Pattern: Uses Hopfield network to reconstruct what the complete pattern should look like")
+    print("• Complete Pattern may blend features from multiple stored patterns")
+    print("• Complete Pattern uses associative memory to 'fill in' missing information intelligently")
     
     print("\n" + "="*60 + "\n")
     

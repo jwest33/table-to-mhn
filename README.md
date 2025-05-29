@@ -1,12 +1,11 @@
 # Hopfield Table Memory
 
-A neural associative memory system for intelligent database querying and pattern completion using Hopfield networks.
+A neural associative memory system for intelligent database querying using Hopfield networks.
 
 ## Overview
 
 Transform any pandas DataFrame into a Hopfield-based associative memory that supports:
 - **Sparse Querying**: Find matches using only partial information
-- **Pattern Completion**: Intelligently fill in missing data
 - **Mixed Data Types**: Seamless handling of numeric and categorical columns
 - **Similarity Search**: Find similar records based on learned patterns
 
@@ -16,12 +15,6 @@ Transform any pandas DataFrame into a Hopfield-based associative memory that sup
 ```python
 # Find tech employees with salary around 80k (ignoring other columns)
 results = memory.query(dept='tech', salary=80000, sparse=True)
-```
-
-**Smart Completion**: Fill in missing information based on learned patterns
-```python
-# Complete a profile: age=33, dept='sales' → find similar sales employee
-completed = memory.complete_pattern(age=33, dept='sales')
 ```
 
 **Mixed Data Support**: Handles numeric, categorical, and sparse data automatically
@@ -54,10 +47,6 @@ results = memory.query(dept='tech', salary=80000, top_n=2, sparse=True)
 #  Example 2) Dense query - match all features  
 results = memory.query(age=30, salary=85000, sparse=False)
 
-#  Example 3) Pattern completion
-completed = memory.complete_pattern(age=35, dept='sales')
-```
-
 ## Example 1 Results
 
 ```
@@ -68,9 +57,8 @@ Match 2: age=35, salary=85000, dept='tech' (Distance: 0.0769)
 
 ## Why Use This?
 
-Unlike traditional databases that require exact matches, this system:
+Unlike traditional databases that require rigid, this system:
 - Finds "similar" records even with partial information
-- Learns patterns from your data to make intelligent suggestions
 - Handles missing or imperfect queries gracefully
 - Provides confidence scores and similarity distances
 
@@ -79,5 +67,3 @@ Unlike traditional databases that require exact matches, this system:
 - `hopfield_table.py` - Core HopfieldTableMemory class
 - `query.py` - Usage examples and testing
 - Requires `hflayers` library for Hopfield network implementation5
-
-Perfect for recommendation systems, data completion, and intelligent search!
