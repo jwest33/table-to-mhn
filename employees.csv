@@ -1,0 +1,501 @@
+age,salary,dept,experience,location,employee_id,first_name,last_name,email,job_title,education_level,hire_date,performance_rating,remote_eligible,manager_id
+34,230241,tech,10,NYC,496668,Sylvia,Holmes,lauren72@example.org,Data Scientist,Master,2015-01-21,Meets Expectations,True,
+31,147702,sales,11,Austin,832350,Michelle,Moore,longricky@example.com,Sales Director,Bachelor,2019-06-16,Meets Expectations,False,479418.0
+28,119380,marketing,5,NYC,122927,Barbara,Reid,pnelson@example.org,Marketing Specialist,High School,2023-03-23,Meets Expectations,False,225135.0
+44,186875,sales,14,LA,802756,James,Benson,dunnkendra@example.org,Business Development,Master,2015-07-27,Exceeds Expectations,False,577196.0
+30,159576,sales,12,Seattle,799368,Nicole,Page,jacquelinegregory@example.net,Sales Director,Associate,2023-05-22,Meets Expectations,False,454473.0
+23,130211,tech,3,Austin,247776,Nicole,Hanna,hannahchan@example.net,Tech Lead,Associate,2023-12-21,Meets Expectations,True,743436.0
+30,129693,sales,6,SF,761209,Luis,Sweeney,gilmoremonica@example.com,Account Manager,Bachelor,2021-04-05,Meets Expectations,False,141592.0
+37,363700,management,17,SF,339659,John,Valenzuela,kwolfe@example.org,Senior Manager,High School,2009-03-18,Meets Expectations,False,533740.0
+45,189000,marketing,26,Austin,206482,Travis,Rogers,whitemary@example.com,Brand Manager,Bachelor,2009-06-26,Meets Expectations,True,455094.0
+32,166826,tech,8,LA,545859,Ariel,Brown,amcdonald@example.com,Tech Lead,Associate,2017-06-13,Meets Expectations,False,760553.0
+42,265625,tech,15,NYC,814056,Tammy,Sims,zrichardson@example.com,DevOps Engineer,Master,2015-11-07,Meets Expectations,False,806143.0
+25,119631,hr,6,LA,363542,Angela,Williamson,franciscynthia@example.com,HR Generalist,Master,2024-05-12,Meets Expectations,False,192119.0
+30,238977,tech,12,LA,171922,Todd,Parker,nconway@example.net,Data Scientist,Master,2024-04-24,Exceeds Expectations,True,907783.0
+40,175500,sales,19,Austin,453554,Christina,Lopez,melissajohnson@example.org,Business Development,Bachelor,2018-11-30,Exceeds Expectations,False,
+37,191665,finance,12,Chicago,588006,Jessica,Leach,craigdunn@example.net,CFO,Master,2014-04-18,Exceeds Expectations,True,657862.0
+40,255741,tech,12,NYC,395149,Jason,Scott,franksmith@example.net,Data Scientist,Bachelor,2023-06-18,Exceeds Expectations,False,190116.0
+30,110107,hr,3,SF,434916,Robert,Rubio,ishields@example.com,Recruiter,Master,2022-10-13,Meets Expectations,True,156834.0
+41,244374,tech,24,LA,598773,Samuel,Espinoza,ronniebell@example.com,DevOps Engineer,Bachelor,2013-05-03,Exceeds Expectations,False,372409.0
+40,220670,tech,14,LA,676985,Diana,Davis,dellis@example.org,Data Scientist,Associate,2018-05-26,Meets Expectations,False,160575.0
+27,107008,sales,3,NYC,341805,Matthew,Ross,gilbertbrittany@example.com,Sales Rep,Associate,2023-08-21,Meets Expectations,False,205108.0
+31,216709,tech,10,SF,704622,Julia,Smith,khardy@example.net,Architect,High School,2023-09-20,Meets Expectations,False,801368.0
+27,94250,marketing,2,Chicago,108584,Jennifer,Butler,nicole61@example.net,Marketing Director,Bachelor,2022-09-11,Meets Expectations,False,901576.0
+36,209781,marketing,10,SF,876339,Sarah,Vaughn,stephensonaaron@example.org,Growth Manager,PhD,2022-05-09,Meets Expectations,True,321258.0
+28,181925,tech,2,SF,200159,Jesse,Myers,barbarasmith@example.org,Architect,Master,2022-06-24,Outstanding,False,507940.0
+44,244374,tech,17,LA,345936,Timothy,Stanton,pwang@example.net,Data Scientist,Master,2017-11-06,Meets Expectations,False,694451.0
+35,166999,sales,13,LA,276257,Kimberly,Schmidt,josephjackson@example.net,Sales Engineer,Bachelor,2015-02-16,Meets Expectations,False,346564.0
+51,186875,sales,23,LA,212179,George,Garcia,theresa29@example.net,Sales Engineer,Bachelor,2008-12-18,Exceeds Expectations,True,366191.0
+49,234375,finance,25,NYC,107694,Jessica,Davis,karensmith@example.com,CFO,Master,2001-01-06,Exceeds Expectations,True,634665.0
+29,197609,tech,7,SF,500997,Courtney,Liu,ebarnett@example.com,Software Engineer,Master,2018-06-11,Meets Expectations,True,920002.0
+32,141709,marketing,9,LA,692228,Jon,Duran,smithsarah@example.net,Growth Manager,Bachelor,2020-06-19,Meets Expectations,False,138410.0
+35,229920,tech,10,NYC,983520,Paul,Wallace,rangelkelly@example.net,Senior Engineer,Associate,2016-04-08,Meets Expectations,False,303889.0
+38,153332,sales,12,LA,187455,Brittany,Moore,nashmadison@example.com,Sales Director,Associate,2023-02-20,Meets Expectations,False,989722.0
+28,102704,finance,1,NYC,153257,Donna,Richardson,sjones@example.com,Financial Analyst,Bachelor,2023-06-04,Meets Expectations,True,373080.0
+33,195818,tech,7,NYC,319570,Jonathan,Gonzalez,youngjoseph@example.com,Tech Lead,Bachelor,2023-12-04,Meets Expectations,True,361743.0
+35,265625,tech,14,NYC,493138,Jonathan,Edwards,stephanie28@example.org,DevOps Engineer,Master,2023-05-09,Meets Expectations,False,980608.0
+28,166319,tech,5,NYC,546656,Joseph,Harris,richardsmith@example.net,Architect,Master,2021-11-03,Meets Expectations,False,480739.0
+35,131199,hr,11,LA,374206,John,Jones,linda68@example.com,HR Manager,High School,2018-11-03,Meets Expectations,True,285145.0
+26,128567,finance,4,NYC,221164,Amber,Hall,tfox@example.com,Finance Manager,Bachelor,2021-08-17,Meets Expectations,True,
+50,203125,operations,23,NYC,326950,Sherry,Clay,bondana@example.net,Supply Chain Manager,Bachelor,2004-01-11,Needs Improvement,False,758325.0
+39,203125,sales,15,NYC,276519,Natasha,Jones,ashleygarcia@example.org,Business Development,Bachelor,2020-08-24,Meets Expectations,False,312907.0
+42,195000,sales,20,Seattle,815048,Diane,Moran,oscarmiller@example.net,Business Development,High School,2020-04-04,Meets Expectations,True,931520.0
+49,276250,tech,29,SF,187971,Erica,Burton,hmendoza@example.org,DevOps Engineer,Bachelor,1999-12-11,Meets Expectations,True,731497.0
+38,218750,marketing,16,NYC,819502,Angel,Villanueva,stephenssonya@example.com,Growth Manager,PhD,2018-02-14,Meets Expectations,True,883763.0
+30,117474,hr,5,Seattle,653856,Cynthia,Foster,amanda25@example.org,HR Generalist,Master,2019-12-16,Meets Expectations,False,
+26,256748,management,8,SF,858923,Penny,Zamora,eharrison@example.com,VP,High School,2021-03-07,Meets Expectations,True,318742.0
+30,147843,finance,5,SF,356940,Emily,Francis,gregory44@example.net,Financial Analyst,Bachelor,2024-01-02,Meets Expectations,True,632070.0
+27,123503,marketing,7,NYC,737208,David,Gomez,gsteele@example.com,Marketing Director,Associate,2020-05-06,Meets Expectations,False,881188.0
+32,133554,marketing,9,LA,340500,William,Ortiz,kwilliams@example.com,Growth Manager,Bachelor,2021-10-08,Meets Expectations,True,817866.0
+32,170195,operations,10,NYC,200254,John,Taylor,michele11@example.com,Process Analyst,Bachelor,2015-07-30,Outstanding,False,145148.0
+39,185959,operations,14,NYC,892384,Daniel,Moore,schroederjacob@example.org,Operations Director,Master,2021-10-31,Meets Expectations,False,476194.0
+43,375000,management,21,NYC,586210,Dominic,Davis,millershari@example.org,Senior Manager,Master,2021-05-02,Exceeds Expectations,True,959302.0
+25,128306,marketing,4,SF,448252,Jenny,Reynolds,bobby93@example.net,Content Manager,Bachelor,2022-08-18,Meets Expectations,True,
+55,276250,tech,28,SF,823674,Shaun,Payne,kyle82@example.com,DevOps Engineer,High School,2016-10-11,Meets Expectations,False,821401.0
+31,193565,tech,8,NYC,530181,Donna,Smith,steven09@example.com,Tech Lead,High School,2016-06-27,Meets Expectations,True,743260.0
+23,114468,sales,2,LA,688158,Robert,Mejia,karenlopez@example.org,Account Manager,Bachelor,2022-09-24,Exceeds Expectations,True,149451.0
+32,229784,tech,9,SF,741296,Karen,Frazier,sharon05@example.org,Data Scientist,Bachelor,2022-11-20,Meets Expectations,False,810944.0
+45,183750,marketing,17,Chicago,714911,Gerald,Jackson,bvega@example.org,Growth Manager,Bachelor,2022-04-06,Exceeds Expectations,True,
+42,244374,tech,21,LA,144566,Jeremy,Salinas,cantrellrachel@example.net,DevOps Engineer,High School,2011-02-09,Meets Expectations,False,904850.0
+25,113169,tech,1,NYC,980021,Renee,Garcia,patriciaaguilar@example.org,Software Engineer,Master,2023-07-08,Needs Improvement,False,532629.0
+34,164878,hr,13,NYC,778201,Charles,Coleman,fcook@example.net,Compensation Analyst,Master,2015-10-23,Needs Improvement,False,546385.0
+37,211250,sales,17,SF,498029,Mark,Morrison,joshua02@example.net,Business Development,Associate,2016-02-29,Meets Expectations,False,930385.0
+53,170625,sales,25,Chicago,944207,Briana,David,marcusbarker@example.org,Business Development,Bachelor,2005-12-04,Needs Improvement,False,826324.0
+25,128081,sales,6,LA,515316,Chelsea,Hart,mirandamacias@example.org,Sales Rep,Bachelor,2020-12-08,Meets Expectations,True,251816.0
+46,202500,finance,22,Austin,907938,Adam,Dixon,christianacosta@example.com,Controller,Associate,2002-11-28,Meets Expectations,False,127930.0
+26,133773,sales,7,NYC,547530,Henry,Edwards,rhonda15@example.org,Account Manager,Associate,2021-09-14,Needs Improvement,False,766092.0
+28,166368,tech,6,NYC,853551,Tracy,Greer,scottgood@example.com,Senior Engineer,High School,2021-06-27,Meets Expectations,True,921064.0
+41,170625,operations,22,Chicago,738879,Elaine,Hernandez,jessica51@example.net,Supply Chain Manager,Associate,2006-06-19,Meets Expectations,False,
+39,265625,tech,15,NYC,649498,Anthony,Johnson,tlevine@example.net,Data Scientist,Master,2024-02-23,Meets Expectations,True,972989.0
+39,174886,sales,15,LA,825314,Patrick,Ray,etucker@example.net,Sales Engineer,Master,2012-08-26,Needs Improvement,False,192441.0
+37,240001,tech,14,LA,141138,Kenneth,Russell,ecrawford@example.org,DevOps Engineer,Bachelor,2015-07-28,Meets Expectations,True,377730.0
+30,134614,sales,7,LA,743198,Kelly,Baker,dillonspencer@example.org,Sales Rep,Bachelor,2023-03-09,Meets Expectations,True,382782.0
+38,244374,tech,19,LA,431586,Andrea,Payne,madison59@example.com,DevOps Engineer,Master,2022-08-26,Outstanding,True,560581.0
+31,184932,finance,9,NYC,817614,Matthew,Vega,kurt20@example.com,Finance Manager,Associate,2018-04-05,Exceeds Expectations,False,494369.0
+31,161672,finance,7,SF,470670,Brian,Scott,fitzgeraldrichard@example.org,Finance Manager,Associate,2022-04-22,Meets Expectations,True,769361.0
+39,208221,marketing,15,NYC,151268,Mike,Davis,mendozastacey@example.net,Growth Manager,Master,2015-05-04,Meets Expectations,False,915814.0
+37,186301,marketing,13,SF,894245,Deborah,Castillo,ganderson@example.org,Growth Manager,Associate,2011-12-16,Needs Improvement,False,806732.0
+28,104638,sales,3,Chicago,580445,Tammy,Aguilar,jacqueline06@example.org,Sales Rep,Bachelor,2023-05-02,Exceeds Expectations,True,888745.0
+27,152626,tech,5,NYC,750282,Richard,Walker,sanchezwendy@example.org,Software Engineer,High School,2023-02-21,Meets Expectations,False,238270.0
+28,140957,finance,4,NYC,987378,Jennifer,Baker,garnermelinda@example.com,Finance Manager,Master,2023-12-05,Exceeds Expectations,True,542623.0
+34,159992,sales,10,Chicago,630344,Amy,Strickland,juliejames@example.org,Sales Engineer,Master,2019-11-12,Exceeds Expectations,False,212954.0
+49,324000,management,25,Austin,979766,John,Ross,jrobinson@example.org,Senior Manager,High School,2013-01-05,Meets Expectations,False,105586.0
+37,265625,tech,18,NYC,426429,Angela,Fry,deborah84@example.com,DevOps Engineer,Master,2010-09-06,Meets Expectations,True,
+52,218750,marketing,25,NYC,175766,Elizabeth,Newman,yduffy@example.com,Brand Manager,Associate,2002-09-13,Meets Expectations,True,490058.0
+32,158224,sales,11,Seattle,872241,Steve,Hardy,jessesmith@example.net,Sales Director,High School,2024-02-22,Meets Expectations,True,920594.0
+27,86149,marketing,0,LA,399696,Karen,Fitzgerald,omiller@example.net,Content Manager,High School,2024-05-29,Exceeds Expectations,True,509390.0
+24,144130,tech,2,SF,791759,William,Stanley,walkercharles@example.com,Senior Engineer,Bachelor,2023-04-01,Exceeds Expectations,False,764242.0
+26,157966,tech,5,NYC,263109,Melanie,Davis,dchristian@example.org,Software Engineer,Bachelor,2020-12-07,Exceeds Expectations,True,413699.0
+24,94906,sales,0,SF,959884,Rachel,Sullivan,seanjohnson@example.org,Sales Rep,Master,2024-05-29,Meets Expectations,False,283304.0
+37,244374,tech,14,LA,309256,Beth,Ortiz,fisherconnie@example.net,Data Scientist,Master,2022-06-24,Exceeds Expectations,False,816539.0
+43,186875,sales,18,LA,168196,Kimberly,Moss,zachary06@example.net,Business Development,Bachelor,2016-06-17,Exceeds Expectations,True,268414.0
+40,186875,sales,18,LA,650830,David,Lester,kevinballard@example.net,Business Development,Associate,2018-05-19,Meets Expectations,True,626652.0
+27,152627,sales,7,NYC,520273,Christina,Hernandez,cindy24@example.net,Account Manager,Bachelor,2021-09-27,Meets Expectations,True,609128.0
+24,80308,sales,1,Austin,584114,Patricia,Newton,rsingh@example.org,Account Manager,Associate,2024-04-17,Needs Improvement,True,667291.0
+41,265625,tech,15,NYC,496609,Anna,Sutton,raymonddeborah@example.com,DevOps Engineer,Master,2024-05-07,Meets Expectations,False,840056.0
+33,265625,tech,14,NYC,403833,Gina,Carter,schultzgregory@example.net,DevOps Engineer,Bachelor,2018-12-16,Exceeds Expectations,False,
+44,375000,management,25,NYC,152334,Leah,Lawson,mnguyen@example.com,Senior Manager,Associate,2003-03-26,Needs Improvement,True,645469.0
+44,276250,tech,20,SF,165529,Elizabeth,Hoffman,lisasherman@example.net,Data Scientist,PhD,2004-11-25,Meets Expectations,False,869350.0
+37,178656,marketing,11,NYC,793469,Aaron,Henry,williamsamanda@example.org,Growth Manager,Bachelor,2018-09-14,Meets Expectations,True,981882.0
+38,375000,management,18,NYC,290559,Megan,Powell,jennifersilva@example.com,Executive,PhD,2017-04-10,Exceeds Expectations,True,937794.0
+35,314212,management,15,LA,689667,Christopher,Daugherty,melanieporter@example.com,Senior Manager,High School,2010-06-26,Needs Improvement,True,145944.0
+44,203125,sales,26,NYC,586750,David,Jones,fsmith@example.net,Sales Engineer,Master,2008-07-19,Meets Expectations,True,
+33,163753,tech,7,SF,215955,James,Jones,natashasullivan@example.com,Software Engineer,Bachelor,2024-05-23,Meets Expectations,True,778291.0
+31,232022,tech,10,NYC,678211,Shawn,Harris,lucasclarke@example.net,DevOps Engineer,Master,2015-08-21,Meets Expectations,False,546715.0
+45,265625,tech,19,NYC,832903,Sheila,Smith,paulyoung@example.org,Data Scientist,High School,2005-07-29,Meets Expectations,False,602620.0
+51,201249,marketing,24,LA,469975,Jason,Neal,alexander92@example.com,Growth Manager,PhD,2006-09-17,Exceeds Expectations,True,771519.0
+29,192447,marketing,6,SF,448991,Ronald,Morton,carriecampbell@example.org,Marketing Specialist,Master,2019-06-23,Outstanding,True,
+32,163059,operations,9,NYC,346171,Allison,Perry,danieldodson@example.net,Supply Chain Manager,Master,2016-02-25,Meets Expectations,True,846329.0
+28,119331,operations,6,Chicago,781932,Harold,Carpenter,esweeney@example.org,Operations Director,Master,2020-10-02,Meets Expectations,False,655979.0
+36,174995,sales,9,SF,154699,Kelly,Powell,nathan35@example.net,Sales Director,Associate,2022-02-06,Exceeds Expectations,False,260416.0
+40,257267,tech,14,NYC,875240,Danielle,Evans,wanda12@example.com,DevOps Engineer,Bachelor,2018-12-07,Meets Expectations,True,787022.0
+28,156785,tech,2,LA,465960,Holly,Hall,stoutmichelle@example.com,Architect,Master,2023-03-12,Outstanding,False,610348.0
+35,175500,sales,16,Austin,894938,Nancy,Brown,stephaniejimenez@example.net,Sales Engineer,Bachelor,2010-12-22,Meets Expectations,True,
+35,204449,marketing,13,NYC,191876,Jennifer,Zimmerman,beth13@example.net,Brand Manager,Master,2018-11-15,Meets Expectations,False,351702.0
+34,216642,tech,12,LA,107897,Mackenzie,Macdonald,russellmiguel@example.org,Tech Lead,Bachelor,2022-05-30,Meets Expectations,True,969756.0
+28,110578,sales,4,LA,119769,Michelle,Waters,clarkdebra@example.com,Account Manager,Bachelor,2022-08-19,Exceeds Expectations,False,
+32,247355,management,8,LA,517806,Dennis,Huber,bbrown@example.net,Director,Bachelor,2022-04-14,Exceeds Expectations,True,509734.0
+39,244374,tech,15,LA,429669,Cassandra,Johnson,iclark@example.net,Data Scientist,Bachelor,2018-03-09,Meets Expectations,True,602624.0
+31,178626,sales,11,LA,252812,Keith,Carrillo,amy28@example.com,Business Development,Master,2023-03-30,Meets Expectations,False,315568.0
+35,219492,tech,13,LA,167306,Tamara,Ortiz,brian56@example.com,DevOps Engineer,Associate,2021-01-18,Meets Expectations,False,759658.0
+31,166055,tech,6,Chicago,174086,Timothy,Evans,phillipwarren@example.net,Architect,Bachelor,2023-01-13,Meets Expectations,True,603462.0
+24,129126,tech,4,Austin,120039,Alejandro,Brown,rthomas@example.org,Tech Lead,Bachelor,2021-01-02,Needs Improvement,False,196957.0
+26,123028,tech,2,LA,285720,Jose,Lopez,shelly67@example.com,Tech Lead,High School,2022-11-30,Meets Expectations,False,957033.0
+35,186875,sales,14,LA,381943,Marie,Duncan,weavernathan@example.com,Sales Engineer,Master,2012-07-05,Outstanding,True,
+37,217393,marketing,15,SF,205029,Andrew,Taylor,ijohnson@example.com,Brand Manager,High School,2012-11-18,Exceeds Expectations,True,533675.0
+25,111208,operations,0,LA,195125,Mark,Burch,carpenterryan@example.net,Operations Manager,Master,2024-05-29,Outstanding,False,658514.0
+39,260243,tech,14,SF,769414,Kayla,York,kmiller@example.org,DevOps Engineer,Master,2022-05-26,Meets Expectations,True,642956.0
+32,218567,tech,11,LA,323736,Michael,Franklin,marychambers@example.org,DevOps Engineer,Master,2016-04-06,Needs Improvement,False,910333.0
+29,131381,sales,5,LA,535428,Samuel,Potter,jessicawerner@example.com,Sales Director,PhD,2023-03-05,Meets Expectations,False,251073.0
+26,111328,hr,5,SF,164674,Kenneth,Armstrong,jgalloway@example.com,Recruiter,Bachelor,2022-05-02,Meets Expectations,True,
+35,215128,marketing,15,SF,788154,Alexis,Alvarado,robert68@example.org,Brand Manager,Bachelor,2012-06-16,Meets Expectations,False,953751.0
+35,146636,hr,13,Seattle,440256,Lisa,Garcia,lweaver@example.com,Compensation Analyst,High School,2017-04-03,Meets Expectations,False,160675.0
+44,265625,tech,16,NYC,138061,Laura,Rodriguez,elizabeth49@example.com,Data Scientist,Bachelor,2010-06-06,Meets Expectations,True,313778.0
+28,153482,tech,6,Chicago,844514,Erica,Reese,xramos@example.com,Tech Lead,Master,2024-04-29,Meets Expectations,False,554023.0
+33,236757,tech,10,NYC,456067,Carlos,Huffman,robertdelgado@example.org,Data Scientist,Master,2014-07-10,Meets Expectations,False,427842.0
+44,265625,tech,23,NYC,280180,Erika,Lambert,loweryalexandra@example.net,Data Scientist,Master,2005-04-10,Exceeds Expectations,True,721925.0
+40,174725,operations,15,NYC,227668,Kenneth,Santana,christina82@example.net,Operations Director,Associate,2016-01-29,Meets Expectations,True,375724.0
+30,110502,hr,8,LA,678825,Tamara,Thomas,laura39@example.net,Training Specialist,High School,2020-04-18,Meets Expectations,False,200099.0
+33,202700,tech,10,Seattle,683718,Christopher,Young,msilva@example.org,Tech Lead,Bachelor,2022-05-30,Exceeds Expectations,True,913178.0
+32,136139,marketing,4,SF,935082,Joseph,Kidd,trujillolisa@example.org,Marketing Specialist,Associate,2023-09-08,Exceeds Expectations,True,444196.0
+32,173156,tech,7,LA,306225,Terri,Hess,vmcclure@example.net,Architect,Master,2018-11-06,Meets Expectations,True,375057.0
+25,108936,hr,2,SF,777080,Christine,Wells,xduke@example.net,HR Generalist,Master,2024-01-20,Meets Expectations,False,444903.0
+39,223125,tech,16,Chicago,360599,Thomas,Parker,andreamack@example.org,DevOps Engineer,High School,2018-01-22,Meets Expectations,True,412136.0
+26,131961,tech,2,Chicago,319331,Jill,Walsh,mparker@example.net,Tech Lead,Master,2024-01-15,Meets Expectations,False,831840.0
+28,109756,tech,0,SF,614498,Brenda,Powell,vhart@example.org,Senior Engineer,Associate,2024-05-29,Meets Expectations,False,834992.0
+33,121271,hr,11,LA,170615,Gabriel,Hall,ralph20@example.com,Training Specialist,Master,2019-07-02,Needs Improvement,False,819511.0
+22,97080,marketing,2,LA,199630,Joseph,Smith,benjamin41@example.org,Marketing Director,Bachelor,2024-04-21,Needs Improvement,True,781453.0
+42,203125,sales,23,NYC,916341,Heather,Lawson,nicholascook@example.org,Sales Engineer,Associate,2024-03-07,Meets Expectations,True,239336.0
+38,243750,finance,15,SF,503622,Kim,Wilkinson,caitlin39@example.org,CFO,Bachelor,2012-10-05,Meets Expectations,True,552786.0
+29,125346,tech,4,Chicago,836511,Lisa,Rose,qnovak@example.org,Senior Engineer,Bachelor,2021-09-19,Exceeds Expectations,False,738052.0
+28,168624,sales,12,NYC,997936,Samantha,Lowery,gstone@example.com,Account Manager,High School,2016-01-22,Exceeds Expectations,False,
+34,274964,tech,14,SF,590660,Amanda,Salas,codygreen@example.com,Data Scientist,Bachelor,2018-05-17,Meets Expectations,False,642972.0
+45,265625,tech,23,NYC,196145,Lisa,Johnson,zbrown@example.net,DevOps Engineer,Bachelor,2021-05-31,Exceeds Expectations,True,
+36,229470,tech,10,NYC,817693,Jonathan,Adams,gelliott@example.org,Data Scientist,Master,2014-06-01,Needs Improvement,False,
+35,234835,tech,8,SF,210703,William,Delgado,bryanmichelle@example.com,Senior Engineer,Associate,2019-11-16,Outstanding,True,730978.0
+33,155034,tech,7,Seattle,595977,Jessica,Ramos,perezbeverly@example.net,Software Engineer,High School,2017-12-21,Meets Expectations,False,144707.0
+37,160170,operations,14,LA,277106,Ricky,Kim,rachel14@example.org,Supply Chain Manager,Associate,2016-05-04,Meets Expectations,True,
+27,96242,sales,2,Chicago,956032,David,Lee,hartjustin@example.net,Sales Rep,Bachelor,2023-11-10,Meets Expectations,True,635989.0
+28,119035,hr,8,NYC,579058,David,Morgan,tammyrodriguez@example.com,Compensation Analyst,Bachelor,2019-03-03,Meets Expectations,False,307392.0
+23,91528,sales,0,Seattle,855884,Russell,Chandler,allen68@example.net,Account Manager,Associate,2024-05-29,Exceeds Expectations,False,294730.0
+31,152279,sales,8,NYC,697484,Ashley,Lawrence,kthomas@example.net,Sales Director,Associate,2021-06-14,Exceeds Expectations,True,740674.0
+36,265625,tech,15,NYC,153737,Melissa,Soto,wevans@example.com,Data Scientist,Bachelor,2022-08-14,Meets Expectations,False,
+30,189603,tech,8,NYC,179476,Tim,Blackburn,carlos64@example.com,Data Scientist,Bachelor,2024-01-12,Exceeds Expectations,False,441589.0
+24,109968,tech,1,Chicago,829402,Tanya,Warren,falvarez@example.net,Software Engineer,Bachelor,2023-11-27,Meets Expectations,True,140864.0
+27,161334,tech,6,Chicago,521986,Gina,Bradley,kwood@example.org,Tech Lead,Master,2022-11-05,Meets Expectations,True,409547.0
+33,230404,tech,13,LA,879114,David,Ray,hahnkatelyn@example.net,Data Scientist,High School,2016-02-21,Meets Expectations,True,784595.0
+25,141974,management,0,LA,436359,Michael,Lopez,michellezamora@example.com,Manager,Bachelor,2024-05-29,Needs Improvement,True,773432.0
+35,265625,tech,17,NYC,596322,Matthew,Bennett,sarah82@example.com,DevOps Engineer,Bachelor,2021-05-17,Meets Expectations,False,236506.0
+39,223125,tech,15,Chicago,379936,Margaret,Ho,karinathomas@example.com,DevOps Engineer,Associate,2023-08-19,Exceeds Expectations,True,895138.0
+50,276250,tech,25,SF,434165,Kevin,Simon,samantha01@example.org,DevOps Engineer,Bachelor,2014-01-22,Meets Expectations,False,414375.0
+30,159074,marketing,12,Austin,848804,Sydney,Hudson,dwilliams@example.com,Growth Manager,Master,2015-03-03,Meets Expectations,False,371322.0
+30,116087,marketing,5,NYC,333327,Geoffrey,Henry,sharon90@example.net,Marketing Specialist,Associate,2020-08-22,Meets Expectations,False,463484.0
+28,142560,operations,9,NYC,759450,Andrea,Mckinney,justinlopez@example.net,Process Analyst,Associate,2018-10-24,Meets Expectations,True,161721.0
+25,112368,hr,5,Seattle,683590,Dwayne,Armstrong,drewwise@example.org,Recruiter,Bachelor,2020-03-30,Meets Expectations,True,214625.0
+33,162946,sales,8,NYC,763767,James,Duncan,jillianmartinez@example.com,Account Manager,Bachelor,2018-05-18,Meets Expectations,True,508187.0
+34,169639,marketing,12,NYC,965262,Michael,Turner,littlematthew@example.net,Growth Manager,Associate,2022-09-15,Meets Expectations,False,287812.0
+27,75281,sales,0,LA,406790,Dalton,Gaines,jclark@example.org,Sales Rep,Bachelor,2024-05-29,Needs Improvement,False,601673.0
+46,186875,sales,20,LA,987918,Amy,Garcia,misty68@example.com,Business Development,Bachelor,2005-03-28,Meets Expectations,True,
+34,189943,sales,13,Seattle,379054,Melissa,Rodriguez,tracysmith@example.com,Sales Engineer,Bachelor,2020-10-06,Meets Expectations,False,352402.0
+34,323995,management,14,Seattle,112247,John,Miller,kelly35@example.net,Executive,Associate,2023-03-07,Meets Expectations,False,528903.0
+23,141439,tech,4,LA,215689,Roy,Graham,jasongarrison@example.com,Tech Lead,Bachelor,2024-01-28,Exceeds Expectations,False,829434.0
+38,167951,tech,11,Chicago,268743,Amy,Dominguez,meadowskirsten@example.org,Senior Engineer,Bachelor,2020-04-06,Exceeds Expectations,True,490129.0
+35,159827,sales,11,LA,421244,Heather,Martinez,margaretjones@example.net,Business Development,Bachelor,2015-09-22,Meets Expectations,True,
+29,138925,sales,7,LA,952502,Teresa,Morgan,ostewart@example.net,Sales Rep,Bachelor,2022-12-08,Meets Expectations,True,569535.0
+24,123523,marketing,2,SF,247496,Alexander,Sullivan,johnsonbrenda@example.net,Marketing Specialist,Bachelor,2023-03-31,Exceeds Expectations,True,672458.0
+40,378732,management,15,SF,353498,Juan,Bell,elizabethho@example.net,Executive,Bachelor,2021-12-24,Meets Expectations,False,642201.0
+32,115829,operations,4,NYC,239193,James,Edwards,jdavis@example.org,Process Analyst,Bachelor,2021-04-19,Exceeds Expectations,False,375528.0
+24,106010,tech,3,Chicago,599734,Margaret,Knapp,cynthialewis@example.net,Architect,Bachelor,2022-07-23,Meets Expectations,True,
+26,182986,tech,5,NYC,870166,Christopher,Herring,hclark@example.com,Software Engineer,Master,2023-01-07,Exceeds Expectations,False,642902.0
+41,234375,finance,15,NYC,878388,Kyle,Mathis,bfranklin@example.com,CFO,Master,2011-05-13,Meets Expectations,True,767730.0
+42,203125,sales,17,NYC,813686,Howard,Wallace,tracy23@example.com,Business Development,Bachelor,2016-10-25,Meets Expectations,True,752095.0
+38,164161,sales,12,NYC,766415,Peggy,Mcknight,melissa12@example.com,Sales Director,High School,2020-11-25,Meets Expectations,True,769639.0
+26,113314,sales,0,NYC,949518,Norman,Thomas,martinezamanda@example.org,Sales Rep,Bachelor,2024-05-29,Outstanding,True,943854.0
+39,192523,sales,14,Seattle,834424,Craig,Curtis,griffinrobin@example.net,Sales Engineer,Master,2014-07-16,Meets Expectations,False,701910.0
+29,113143,hr,5,NYC,501922,James,Graham,audrey03@example.org,HR Manager,Bachelor,2022-08-02,Meets Expectations,True,748169.0
+43,186875,sales,17,LA,225655,Anthony,Wilcox,randydavenport@example.org,Business Development,High School,2015-10-16,Exceeds Expectations,False,405040.0
+37,186875,sales,14,LA,338707,Stephanie,Hughes,watsonkevin@example.org,Business Development,Master,2016-08-08,Exceeds Expectations,False,880540.0
+26,138286,hr,7,Seattle,580588,Michael,Kemp,ujohnson@example.com,HR Manager,Associate,2018-07-12,Outstanding,False,254209.0
+26,104671,tech,3,LA,314408,Miguel,Valencia,matthewaustin@example.net,Software Engineer,High School,2023-08-30,Meets Expectations,True,600168.0
+29,148500,sales,7,NYC,443430,Jeff,Smith,maxwellamanda@example.org,Sales Rep,Bachelor,2020-02-23,Meets Expectations,True,715910.0
+33,246185,tech,11,SF,810341,Marco,Kelly,landryshawn@example.org,Data Scientist,Master,2022-12-23,Meets Expectations,True,687251.0
+35,134996,sales,6,SF,706987,Summer,Wheeler,ocrawford@example.net,Sales Director,Bachelor,2021-07-06,Needs Improvement,True,988969.0
+26,103986,tech,0,NYC,460358,Christina,Hawkins,smiththomas@example.com,Senior Engineer,Master,2024-05-29,Meets Expectations,False,571548.0
+30,199899,tech,7,SF,767031,Melissa,Harris,jessica02@example.net,Software Engineer,Bachelor,2019-11-05,Meets Expectations,False,431449.0
+26,164308,sales,8,NYC,861943,Sean,Murray,hudsonkimberly@example.com,Sales Engineer,Master,2017-02-26,Meets Expectations,False,899791.0
+27,217207,tech,9,SF,863736,Anthony,Reyes,joelgreen@example.com,Data Scientist,Bachelor,2022-04-24,Meets Expectations,False,335637.0
+28,88247,sales,3,LA,753577,Taylor,Brown,michelle67@example.org,Account Manager,Associate,2021-06-07,Meets Expectations,True,370266.0
+28,137476,marketing,6,NYC,687235,Jason,Smith,david52@example.net,Content Manager,Associate,2024-01-01,Meets Expectations,False,111310.0
+39,211250,sales,17,SF,846473,Natasha,Becker,glenn47@example.org,Business Development,Associate,2008-08-22,Meets Expectations,False,820367.0
+25,185266,tech,6,NYC,369154,David,Bowers,robert83@example.com,Senior Engineer,PhD,2024-03-24,Needs Improvement,True,249135.0
+26,143578,tech,0,SF,859582,Victoria,Collins,sheilawallace@example.net,Software Engineer,Bachelor,2024-05-29,Exceeds Expectations,True,231675.0
+28,181875,tech,9,LA,719538,Joshua,Ortiz,farmertravis@example.net,Architect,Bachelor,2017-11-28,Exceeds Expectations,True,816165.0
+24,114917,marketing,3,LA,183538,Mark,Le,vcarney@example.net,Marketing Specialist,Bachelor,2021-07-23,Outstanding,True,413455.0
+32,215200,tech,9,NYC,132886,Jessica,Knox,allisonsarah@example.net,Tech Lead,Bachelor,2018-10-14,Meets Expectations,False,
+37,211250,operations,21,SF,282052,Eduardo,Steele,teresa89@example.net,Supply Chain Manager,Bachelor,2016-05-27,Meets Expectations,False,846658.0
+23,108267,sales,3,Austin,495449,Tiffany,Leon,valerieferguson@example.net,Sales Director,Master,2022-12-31,Meets Expectations,True,613064.0
+32,184128,sales,13,SF,696071,Dalton,Nunez,leeamy@example.org,Sales Engineer,High School,2013-03-27,Meets Expectations,True,178213.0
+27,248364,management,7,NYC,433282,Lee,Hayes,dwiggins@example.com,Manager,Associate,2023-02-07,Exceeds Expectations,True,131284.0
+25,105562,tech,0,SF,841926,Natalie,Gray,andrew48@example.com,Senior Engineer,Bachelor,2024-05-29,Exceeds Expectations,False,138242.0
+44,203125,operations,24,NYC,600049,Tyrone,Chambers,ypalmer@example.org,Operations Director,Bachelor,2000-09-18,Meets Expectations,False,968327.0
+29,177506,hr,9,SF,194076,Daniel,Jenkins,meghan89@example.com,Training Specialist,PhD,2020-10-22,Exceeds Expectations,False,872790.0
+26,150285,sales,7,NYC,552091,Catherine,Henderson,mckenzietravis@example.net,Account Manager,Bachelor,2019-01-21,Meets Expectations,False,945055.0
+30,244499,tech,11,SF,359612,Tammy,Mccall,jimmymiller@example.org,Data Scientist,Master,2016-10-12,Exceeds Expectations,True,902678.0
+37,171545,operations,15,LA,883053,Brandi,Hooper,matthew70@example.net,Operations Director,Bachelor,2010-11-12,Meets Expectations,False,197516.0
+42,189000,marketing,20,Austin,621013,Lindsay,Holmes,tpatterson@example.org,Brand Manager,Master,2017-10-13,Meets Expectations,True,125885.0
+25,163844,finance,4,SF,715663,Caitlyn,Hartman,shaun33@example.net,Financial Analyst,Associate,2022-02-25,Outstanding,True,920970.0
+40,276250,tech,17,SF,147445,Donna,Simon,orodriguez@example.com,Data Scientist,Bachelor,2019-04-20,Exceeds Expectations,True,311337.0
+30,156307,hr,10,NYC,503863,Angela,Howell,clineaaron@example.net,HR Manager,Bachelor,2016-12-30,Exceeds Expectations,False,455099.0
+25,131994,finance,3,NYC,345105,Rachel,Garcia,ewilson@example.org,Financial Analyst,Associate,2022-07-16,Exceeds Expectations,True,584983.0
+36,210757,tech,14,Chicago,315313,Jack,Hensley,hreese@example.org,DevOps Engineer,High School,2022-12-01,Meets Expectations,False,982622.0
+44,215624,finance,18,LA,279704,Christine,Johnson,martinezlauren@example.org,Controller,Associate,2020-12-24,Meets Expectations,False,745482.0
+36,219611,tech,13,Austin,831026,Michael,Reynolds,vsanchez@example.net,Data Scientist,Bachelor,2016-10-01,Exceeds Expectations,True,
+24,100518,hr,5,NYC,306577,Jennifer,Johnson,robert90@example.org,Recruiter,Associate,2022-10-05,Meets Expectations,False,539741.0
+39,203125,operations,21,NYC,356836,Crystal,Stokes,qdunn@example.org,Supply Chain Manager,Bachelor,2021-07-08,Meets Expectations,False,614645.0
+29,110775,sales,5,Seattle,797266,Jennifer,Johnson,marissa27@example.org,Account Manager,High School,2023-01-10,Meets Expectations,True,716346.0
+34,162716,marketing,10,NYC,375022,Belinda,Matthews,aliciabeck@example.net,Growth Manager,Bachelor,2016-06-22,Exceeds Expectations,False,798095.0
+39,197486,sales,14,NYC,681116,Philip,Fitzpatrick,dyoung@example.org,Business Development,Bachelor,2021-10-05,Exceeds Expectations,False,157831.0
+31,189225,tech,8,NYC,140165,Destiny,Shelton,reedsteven@example.net,Senior Engineer,Associate,2018-12-03,Meets Expectations,False,991118.0
+27,124451,hr,5,NYC,672272,Laura,Gilmore,uchandler@example.com,HR Generalist,Bachelor,2022-09-26,Meets Expectations,True,751807.0
+25,146385,sales,4,SF,227723,Elizabeth,Hernandez,christiansaunders@example.org,Account Manager,PhD,2023-11-07,Needs Improvement,True,507364.0
+46,215624,finance,22,LA,737124,Edward,Hernandez,kthompson@example.com,Controller,Associate,2012-06-11,Meets Expectations,False,360379.0
+30,122999,hr,8,SF,490752,Eugene,Lewis,rickeymarshall@example.net,Compensation Analyst,Bachelor,2017-04-25,Meets Expectations,False,
+27,146678,sales,7,SF,878054,Sherry,Harmon,claytontravis@example.net,Sales Rep,Bachelor,2023-05-16,Meets Expectations,False,456556.0
+27,116859,sales,3,LA,862222,Christine,Wilson,reedmicheal@example.org,Sales Director,Associate,2021-08-22,Exceeds Expectations,False,575330.0
+27,125052,hr,4,SF,101934,Laura,Jackson,sweaver@example.org,Recruiter,Bachelor,2021-09-02,Outstanding,True,144323.0
+29,132128,finance,5,Seattle,886820,Amanda,Cole,jason75@example.net,Finance Manager,Bachelor,2020-06-18,Meets Expectations,True,367494.0
+31,173159,tech,6,SF,336978,Raymond,Rose,gonzalezdamon@example.net,Senior Engineer,Bachelor,2019-07-10,Meets Expectations,True,396053.0
+30,156602,marketing,11,LA,654378,John,Harrison,nathan20@example.com,Content Manager,Bachelor,2013-09-02,Meets Expectations,False,
+36,215092,finance,12,LA,452017,Ashley,Garcia,janet38@example.net,Finance Manager,Bachelor,2018-10-04,Exceeds Expectations,True,890646.0
+37,162530,marketing,14,Chicago,982958,Michelle,Turner,frose@example.com,Growth Manager,Bachelor,2023-03-12,Meets Expectations,True,975035.0
+42,255000,tech,17,Seattle,671426,Larry,Adams,vbriggs@example.net,DevOps Engineer,Master,2010-09-26,Meets Expectations,True,
+33,139765,operations,9,NYC,285596,John,Johnson,milesmakayla@example.com,Operations Director,Associate,2019-06-11,Meets Expectations,True,869681.0
+26,158412,sales,6,SF,422595,Dawn,Tyler,fbarr@example.org,Sales Director,Bachelor,2021-01-18,Exceeds Expectations,False,903252.0
+30,162270,sales,9,NYC,621288,Susan,Walton,lesarah@example.net,Business Development,Bachelor,2024-05-11,Meets Expectations,True,910389.0
+32,149483,marketing,10,Chicago,842076,Benjamin,Blackburn,timothy46@example.com,Content Manager,Bachelor,2024-01-20,Exceeds Expectations,True,251491.0
+36,193392,sales,13,NYC,525260,Brandon,Armstrong,ryan99@example.net,Business Development,Bachelor,2023-06-19,Exceeds Expectations,False,861772.0
+45,244374,tech,25,LA,487343,Theresa,Roberts,xking@example.net,DevOps Engineer,Bachelor,2016-10-28,Meets Expectations,True,749501.0
+30,180063,tech,11,Austin,515698,Kevin,Grant,jasmineroach@example.net,Architect,High School,2013-08-29,Meets Expectations,False,950607.0
+26,147802,management,1,Chicago,437888,Charles,Pierce,simpsonkevin@example.net,Director,Associate,2024-05-28,Meets Expectations,True,407041.0
+31,143762,marketing,7,NYC,791744,Jerry,Rodriguez,svargas@example.org,Content Manager,Bachelor,2022-01-26,Needs Improvement,True,100636.0
+24,92450,sales,0,SF,443061,Scott,Saunders,cummingsbeverly@example.org,Sales Rep,Bachelor,2024-05-29,Meets Expectations,False,532804.0
+55,170625,sales,29,Chicago,201748,Christopher,White,stephanie04@example.org,Sales Engineer,Master,2015-01-09,Exceeds Expectations,False,138284.0
+42,178195,marketing,16,Chicago,693346,Katie,Sweeney,agraves@example.org,Brand Manager,Bachelor,2024-04-05,Meets Expectations,False,542720.0
+38,227932,tech,13,LA,961062,Dana,Hamilton,barberjoseph@example.net,DevOps Engineer,Associate,2021-10-27,Needs Improvement,False,245436.0
+28,129851,operations,8,LA,112347,Jennifer,Krause,kendra66@example.com,Process Analyst,Bachelor,2022-01-15,Meets Expectations,False,889636.0
+29,126834,sales,4,NYC,759908,Michael,Clark,mark05@example.com,Sales Director,High School,2021-04-02,Exceeds Expectations,True,648810.0
+53,244374,tech,27,LA,151528,Kristin,Hood,lindsaymoore@example.com,Data Scientist,Bachelor,2011-07-07,Exceeds Expectations,True,226760.0
+34,280292,management,11,LA,321658,Brittany,Brooks,karenpreston@example.net,Director,Bachelor,2017-03-14,Meets Expectations,True,660097.0
+43,218750,marketing,18,NYC,569996,Kathryn,Davis,andre25@example.com,Growth Manager,Bachelor,2011-10-29,Outstanding,True,667467.0
+44,203125,sales,22,NYC,286865,James,Ross,taylorsherman@example.org,Sales Engineer,Master,2013-01-07,Meets Expectations,False,769684.0
+26,143100,marketing,1,SF,476956,Jennifer,Hopkins,karencampbell@example.org,Marketing Specialist,PhD,2023-11-02,Exceeds Expectations,True,183084.0
+26,112249,marketing,2,NYC,269554,Thomas,Turner,ewingmelissa@example.net,Marketing Specialist,Bachelor,2024-03-09,Meets Expectations,True,661495.0
+26,102138,marketing,0,LA,939103,Marco,Jones,valenzuelascott@example.net,Marketing Specialist,Master,2024-05-29,Meets Expectations,True,443803.0
+22,99612,sales,1,NYC,634860,Larry,Jones,thomassantiago@example.com,Sales Rep,High School,2023-08-04,Meets Expectations,False,594936.0
+27,128389,marketing,4,NYC,514285,Kellie,Campbell,alejandra43@example.org,Content Manager,High School,2022-09-04,Meets Expectations,False,898846.0
+35,265625,tech,19,NYC,501488,Susan,Hobbs,kimberly48@example.org,Data Scientist,Master,2020-12-27,Exceeds Expectations,True,651308.0
+30,155922,finance,4,LA,698860,Kayla,Oliver,armstrongpatricia@example.com,Finance Manager,Bachelor,2021-03-28,Outstanding,True,607773.0
+34,203125,sales,15,NYC,866172,Robin,Holland,robersonalicia@example.com,Business Development,Associate,2024-02-10,Outstanding,True,249493.0
+27,181690,tech,2,NYC,704975,Richard,Trujillo,silvadenise@example.com,Senior Engineer,PhD,2024-03-17,Meets Expectations,False,134563.0
+36,192778,marketing,10,NYC,931762,Marco,Williams,vperry@example.org,Growth Manager,PhD,2019-10-22,Meets Expectations,False,722324.0
+24,213226,tech,8,SF,954722,Melissa,Jacobs,james38@example.com,DevOps Engineer,Master,2016-09-29,Meets Expectations,True,388803.0
+34,276250,tech,14,SF,949555,Bonnie,Mcpherson,greenedanielle@example.com,DevOps Engineer,Bachelor,2021-08-04,Meets Expectations,True,143452.0
+36,276250,tech,20,SF,684038,Jason,Phillips,rwilson@example.com,DevOps Engineer,Master,2009-05-31,Exceeds Expectations,True,
+37,186875,sales,13,LA,418934,Scott,Phillips,annesmith@example.net,Sales Engineer,Associate,2017-04-04,Exceeds Expectations,True,200785.0
+38,183750,marketing,20,Chicago,137008,Amy,Smith,johnsonjacob@example.net,Growth Manager,Bachelor,2007-02-04,Meets Expectations,True,628425.0
+31,133619,marketing,4,NYC,201370,Rebecca,Mccoy,joseph37@example.org,Marketing Specialist,Master,2023-06-02,Meets Expectations,True,
+33,156454,operations,9,NYC,582057,Tracy,Jones,obrown@example.org,Supply Chain Manager,Master,2024-05-13,Meets Expectations,True,949075.0
+29,247938,management,7,NYC,289118,Tonya,Anderson,kathryn77@example.org,Director,Bachelor,2023-03-01,Meets Expectations,False,876100.0
+31,152816,tech,4,LA,526720,Lisa,Williams,umiller@example.net,Architect,Bachelor,2023-04-02,Exceeds Expectations,False,865284.0
+27,126280,tech,0,NYC,366079,Amanda,Valenzuela,nicole81@example.net,Software Engineer,Master,2024-05-29,Meets Expectations,False,355475.0
+30,149179,operations,10,LA,542529,Amanda,Tucker,drewfields@example.net,Process Analyst,Associate,2021-01-26,Meets Expectations,True,388529.0
+34,206082,marketing,14,SF,258171,Erin,Taylor,jkennedy@example.net,Growth Manager,Bachelor,2019-04-24,Meets Expectations,False,634733.0
+35,265625,tech,16,NYC,177854,Lisa,Alexander,richard55@example.com,Data Scientist,Bachelor,2016-11-21,Outstanding,False,150571.0
+27,187206,tech,6,NYC,162272,Anthony,Mitchell,jerry07@example.org,Tech Lead,PhD,2023-11-07,Meets Expectations,True,681245.0
+35,181327,tech,7,NYC,456371,Wendy,Bray,fpatrick@example.net,Software Engineer,Bachelor,2021-08-13,Meets Expectations,True,777282.0
+36,293371,management,9,SF,794824,Emily,Wright,katherine60@example.org,Senior Manager,Bachelor,2018-04-27,Exceeds Expectations,True,629364.0
+25,79770,operations,0,NYC,372869,Kim,Hernandez,pmckenzie@example.net,Process Analyst,High School,2024-05-29,Meets Expectations,True,562075.0
+27,145108,tech,6,LA,743569,Linda,Mann,jasminebrowning@example.org,Architect,High School,2020-05-17,Meets Expectations,True,628670.0
+28,142451,sales,6,NYC,697165,Lisa,Williams,pattybenson@example.net,Sales Director,Associate,2018-08-24,Exceeds Expectations,False,414695.0
+32,133104,operations,10,NYC,838151,Megan,Hernandez,ralphclark@example.org,Supply Chain Manager,High School,2017-10-31,Meets Expectations,True,175413.0
+43,265625,tech,19,NYC,959187,Veronica,Wilson,chelseaperez@example.net,DevOps Engineer,Bachelor,2017-07-06,Meets Expectations,False,757963.0
+48,276250,tech,26,SF,760183,Christopher,Taylor,cknight@example.com,Data Scientist,Bachelor,2023-07-18,Meets Expectations,False,268778.0
+29,272510,management,10,NYC,497403,Jessica,Beard,marcusedwards@example.com,Senior Manager,Master,2018-09-06,Needs Improvement,True,255502.0
+35,152689,operations,10,NYC,205353,Andrew,Adams,michaeljohnson@example.org,Operations Director,Bachelor,2018-08-19,Meets Expectations,True,557144.0
+46,276250,tech,22,SF,992743,Shelby,Yang,hollyrivera@example.org,Data Scientist,Bachelor,2021-06-06,Needs Improvement,False,857816.0
+34,212182,tech,9,SF,851166,David,Graham,tiffany61@example.com,Tech Lead,Bachelor,2021-05-29,Exceeds Expectations,True,458480.0
+24,130933,operations,5,SF,308667,Bradley,Glover,cbailey@example.net,Process Analyst,Master,2022-11-20,Meets Expectations,True,
+31,123838,hr,7,SF,646667,Sean,Carpenter,jennifer28@example.org,HR Manager,High School,2023-12-31,Needs Improvement,False,222402.0
+53,175500,sales,27,Austin,629446,Samantha,Glass,marc94@example.org,Sales Engineer,Master,1999-04-28,Meets Expectations,True,410854.0
+42,203125,sales,20,NYC,487142,Mary,Martinez,gonzalezbilly@example.net,Sales Engineer,Associate,2009-09-22,Meets Expectations,False,227689.0
+30,119007,hr,5,NYC,665164,Tyler,Wilcox,wvance@example.com,HR Generalist,Bachelor,2022-07-30,Exceeds Expectations,False,451471.0
+26,263802,management,7,SF,281573,Karen,Lewis,callen@example.org,Manager,Bachelor,2020-12-07,Needs Improvement,False,121257.0
+23,101284,marketing,0,SF,737738,Jermaine,Pacheco,vasquezkaren@example.net,Marketing Specialist,Bachelor,2024-05-29,Exceeds Expectations,False,
+31,140223,operations,10,Seattle,194715,Thomas,Riley,schwartzalan@example.org,Process Analyst,Associate,2023-09-24,Meets Expectations,False,670366.0
+27,145710,tech,3,NYC,715903,Angel,Ramos,walshemily@example.net,Software Engineer,Bachelor,2023-10-23,Meets Expectations,False,281778.0
+31,111152,marketing,5,LA,211665,Lisa,Schultz,julierobertson@example.net,Content Manager,High School,2021-02-27,Meets Expectations,False,
+27,188033,management,3,NYC,972105,David,Smith,velezeric@example.org,Manager,Bachelor,2021-12-08,Meets Expectations,False,490882.0
+26,120123,operations,3,LA,565009,Mary,Thompson,kevin29@example.com,Operations Director,Master,2023-11-12,Meets Expectations,True,621566.0
+35,251020,tech,13,NYC,254986,Anthony,Johnson,tiffany41@example.com,DevOps Engineer,Bachelor,2022-07-19,Exceeds Expectations,False,918478.0
+26,109587,hr,5,NYC,741000,Alyssa,Bender,elliottpeter@example.net,Recruiter,High School,2022-02-23,Exceeds Expectations,True,267345.0
+32,169806,tech,8,Chicago,667470,Tara,Taylor,annettecameron@example.net,Tech Lead,Bachelor,2021-03-26,Meets Expectations,True,136147.0
+36,187500,hr,16,NYC,710612,Patricia,Sanders,schultzangela@example.net,Compensation Analyst,PhD,2013-01-16,Meets Expectations,True,193799.0
+26,166805,tech,7,Chicago,873456,Connor,Terry,bstanton@example.net,Architect,Bachelor,2017-10-16,Meets Expectations,False,
+40,265625,tech,17,NYC,352703,Ronald,Vang,cjones@example.com,Data Scientist,Master,2014-06-27,Needs Improvement,True,502615.0
+38,185940,marketing,11,NYC,259088,Chelsea,Bell,brandonkim@example.com,Content Manager,Bachelor,2018-03-07,Exceeds Expectations,True,822941.0
+34,165505,marketing,10,NYC,724226,Erin,Berry,amysmith@example.net,Growth Manager,Bachelor,2022-12-16,Needs Improvement,True,109934.0
+31,199213,tech,9,NYC,130570,Danielle,Frederick,hooverlynn@example.net,Tech Lead,Bachelor,2021-12-28,Needs Improvement,True,726404.0
+40,191404,operations,16,NYC,239877,Natalie,Garcia,nhoward@example.com,Supply Chain Manager,Bachelor,2010-07-24,Meets Expectations,False,379423.0
+33,219778,tech,9,NYC,558991,Benjamin,Carter,william46@example.net,DevOps Engineer,Master,2023-02-14,Exceeds Expectations,False,148801.0
+24,105686,hr,0,Chicago,870382,Brian,Matthews,xhobbs@example.org,Recruiter,PhD,2024-05-29,Outstanding,True,
+27,199162,tech,6,LA,540829,Rickey,Smith,james29@example.net,Architect,Master,2018-12-08,Exceeds Expectations,True,696165.0
+25,133383,tech,4,LA,522690,Timothy,Mcdonald,katrina90@example.org,Senior Engineer,Bachelor,2020-08-12,Meets Expectations,True,738398.0
+34,213523,finance,10,SF,436356,Christopher,Trevino,richardjackson@example.com,CFO,Master,2019-07-18,Meets Expectations,False,268966.0
+40,265625,tech,19,NYC,294473,Lauren,Diaz,michaelpage@example.org,Data Scientist,Master,2023-09-19,Meets Expectations,True,274744.0
+46,170625,sales,22,Chicago,649927,Erica,Diaz,shawnhudson@example.com,Business Development,High School,2013-02-26,Meets Expectations,True,843758.0
+42,201249,marketing,15,LA,535056,Valerie,Matthews,vdavenport@example.com,Brand Manager,Bachelor,2022-03-24,Outstanding,False,805077.0
+52,244374,tech,28,LA,593265,Elizabeth,Caldwell,donna26@example.org,DevOps Engineer,Master,2018-08-19,Needs Improvement,True,111734.0
+29,118284,sales,6,LA,860408,Brittany,Brooks,melissali@example.net,Sales Director,Associate,2018-07-26,Meets Expectations,False,441879.0
+40,255000,tech,14,Seattle,542285,Christina,Butler,justingregory@example.net,DevOps Engineer,Master,2022-09-05,Meets Expectations,True,316306.0
+36,261714,tech,14,NYC,138008,Richard,Bell,clarkemichelle@example.com,DevOps Engineer,Master,2021-11-07,Exceeds Expectations,False,858196.0
+29,142076,sales,8,LA,714459,Adrian,Martin,aarongarcia@example.net,Business Development,Bachelor,2022-02-15,Meets Expectations,True,587945.0
+35,170237,sales,12,NYC,926592,Ashley,Hardin,baileymichael@example.com,Account Manager,Associate,2019-04-13,Meets Expectations,False,
+46,265625,tech,18,NYC,551707,Dustin,Robinson,longpaul@example.com,DevOps Engineer,Master,2009-12-26,Meets Expectations,True,306037.0
+31,150897,hr,10,SF,251504,Lorraine,Hernandez,xnelson@example.net,Compensation Analyst,Master,2014-08-06,Meets Expectations,True,704437.0
+29,150247,operations,4,NYC,809201,Dillon,Miller,richardsonbenjamin@example.com,Operations Director,PhD,2020-06-17,Exceeds Expectations,True,205980.0
+34,141943,hr,8,SF,297995,Levi,Acosta,hlowe@example.net,Compensation Analyst,Bachelor,2017-05-02,Meets Expectations,False,294337.0
+24,90386,sales,1,NYC,889749,Jesse,Smith,robertbailey@example.org,Account Manager,High School,2023-08-18,Meets Expectations,False,108044.0
+50,265625,tech,25,NYC,960430,Andrea,Kerr,justin85@example.net,Data Scientist,High School,2015-03-12,Meets Expectations,False,705166.0
+47,234375,finance,22,NYC,400781,Deborah,Smith,danajackson@example.net,CFO,Bachelor,2021-06-26,Meets Expectations,False,103551.0
+40,181797,sales,15,LA,725625,Lance,Garrett,hmorgan@example.net,Sales Engineer,Associate,2009-05-30,Meets Expectations,True,918612.0
+30,137108,marketing,6,NYC,462810,Tina,Watkins,rebeccashepherd@example.net,Content Manager,High School,2019-03-20,Meets Expectations,True,911498.0
+33,125300,tech,5,Chicago,540428,Samuel,Lawson,romansamantha@example.net,Senior Engineer,Associate,2023-06-27,Exceeds Expectations,True,854119.0
+48,203125,sales,24,NYC,911723,Matthew,Whitehead,mcintoshraymond@example.com,Business Development,Bachelor,2017-03-21,Meets Expectations,True,572014.0
+41,172500,hr,20,LA,308541,Dawn,Jackson,donaldcooper@example.net,Training Specialist,Associate,2023-11-18,Exceeds Expectations,False,894799.0
+34,140973,hr,8,NYC,359440,Gregory,Williams,qpetty@example.org,Compensation Analyst,Master,2017-09-14,Meets Expectations,True,354715.0
+32,247976,management,9,LA,839540,Andrew,Moore,sbrewer@example.net,VP,Associate,2017-06-21,Meets Expectations,False,797002.0
+29,172781,tech,5,Seattle,130301,Sean,Burton,parnold@example.org,Tech Lead,Master,2020-03-20,Meets Expectations,True,186992.0
+41,211250,sales,20,SF,252224,Angela,Reese,louislee@example.org,Sales Engineer,High School,2012-07-11,Meets Expectations,False,758981.0
+38,321433,management,14,NYC,214689,Michael,Dunlap,pvalentine@example.org,Executive,Bachelor,2022-05-24,Meets Expectations,False,488972.0
+34,302878,management,14,LA,203196,Charles,Barnett,cpark@example.net,Executive,Bachelor,2023-02-05,Meets Expectations,False,757862.0
+53,162000,hr,24,Austin,640167,Lisa,Carrillo,kchoi@example.com,Training Specialist,Associate,2000-12-30,Meets Expectations,False,753093.0
+30,101969,hr,6,LA,396924,Amber,Knapp,dunnpatricia@example.com,Recruiter,Bachelor,2022-11-28,Meets Expectations,True,991776.0
+33,340119,management,11,SF,295646,Selena,Watson,kimberly43@example.com,Executive,Master,2015-06-15,Meets Expectations,True,632782.0
+25,174076,tech,3,NYC,381889,Gwendolyn,Johnson,shannonlane@example.org,Senior Engineer,PhD,2023-12-20,Meets Expectations,True,853448.0
+27,181198,tech,8,Seattle,297861,Megan,Wu,mariacraig@example.com,Data Scientist,Bachelor,2020-09-04,Exceeds Expectations,False,583502.0
+31,281059,management,7,NYC,738777,Raymond,Ramos,nmayo@example.org,Manager,Master,2023-12-16,Meets Expectations,True,750728.0
+47,227500,marketing,21,SF,891661,Kayla,Williams,stanleyalicia@example.net,Growth Manager,Bachelor,2012-11-27,Meets Expectations,True,929386.0
+25,149690,marketing,4,SF,108833,Dylan,Phillips,michaelaguilar@example.org,Marketing Specialist,Master,2022-03-03,Exceeds Expectations,False,457218.0
+34,225301,tech,11,NYC,797088,Cynthia,Reed,baileylisa@example.com,Tech Lead,Bachelor,2016-10-28,Meets Expectations,False,272799.0
+36,240262,tech,13,NYC,131368,Matthew,Alvarez,jeffrey42@example.org,DevOps Engineer,Bachelor,2020-10-07,Meets Expectations,False,685504.0
+25,76985,finance,1,LA,523361,Zachary,Wilson,cantrellsandra@example.com,Financial Analyst,Bachelor,2024-05-11,Meets Expectations,True,824265.0
+37,152405,sales,12,Austin,107209,Debra,May,nsmith@example.org,Business Development,Master,2024-04-17,Meets Expectations,True,213153.0
+34,135822,sales,8,Austin,147101,Mary,Smith,fmorris@example.com,Account Manager,Bachelor,2024-03-26,Exceeds Expectations,False,726096.0
+33,175596,tech,8,NYC,543253,Jesse,Gomez,rrobinson@example.net,Data Scientist,Bachelor,2019-06-09,Needs Improvement,False,766352.0
+24,147499,tech,2,SF,666348,Benjamin,Howard,virginia77@example.net,Software Engineer,Bachelor,2023-09-01,Exceeds Expectations,False,609367.0
+32,160675,marketing,9,NYC,248813,David,Brown,silvaeric@example.com,Growth Manager,High School,2021-10-06,Meets Expectations,True,294384.0
+33,218896,tech,10,NYC,847601,Christina,Marshall,sarah08@example.com,DevOps Engineer,Bachelor,2017-01-20,Meets Expectations,True,258924.0
+43,244374,tech,24,LA,151996,Stephen,Barker,slee@example.org,Data Scientist,Master,2012-05-05,Meets Expectations,True,843633.0
+24,99931,operations,4,LA,113339,Tyler,Caldwell,dwayne83@example.com,Operations Manager,Bachelor,2023-01-20,Meets Expectations,False,943053.0
+32,227496,finance,10,SF,780726,Yvette,Young,coxaaron@example.org,CFO,PhD,2018-11-19,Exceeds Expectations,True,958279.0
+26,111821,marketing,0,Chicago,881913,Scott,Tyler,valerieholmes@example.net,Marketing Specialist,PhD,2024-05-29,Exceeds Expectations,True,848472.0
+31,138169,operations,7,NYC,870962,Lee,Frank,brandon49@example.com,Process Analyst,Bachelor,2021-01-06,Meets Expectations,False,
+30,194324,tech,9,Seattle,826835,Heather,Mcmahon,edwarddelgado@example.org,Tech Lead,Bachelor,2022-03-12,Meets Expectations,False,286068.0
+38,276250,tech,18,SF,215554,Lisa,Buck,dominiquegibson@example.org,DevOps Engineer,Bachelor,2016-09-26,Meets Expectations,False,787363.0
+25,101812,operations,1,SF,107619,Stephen,Phillips,hamiltonbrian@example.net,Operations Manager,Master,2024-05-08,Meets Expectations,False,377251.0
+36,194155,sales,10,NYC,811558,Jennifer,Clements,wilcoxalexis@example.org,Business Development,PhD,2015-04-25,Meets Expectations,False,883718.0
+28,167046,tech,2,NYC,437300,Travis,Warner,connertimothy@example.org,Software Engineer,Bachelor,2023-06-10,Exceeds Expectations,False,182535.0
+25,108439,marketing,2,SF,675166,Courtney,Mcconnell,urobertson@example.net,Marketing Specialist,Bachelor,2023-12-30,Meets Expectations,False,709881.0
+33,222420,tech,10,NYC,914275,Bradley,Yang,ywilliams@example.net,DevOps Engineer,Master,2023-07-12,Meets Expectations,False,255955.0
+34,174442,marketing,9,NYC,894853,Madeline,Brown,brandonjohnson@example.com,Growth Manager,Master,2015-11-18,Meets Expectations,True,571064.0
+34,166616,marketing,12,NYC,590722,Katherine,Gibson,fneal@example.net,Brand Manager,Bachelor,2016-08-26,Meets Expectations,True,
+42,243750,finance,16,SF,355674,Mark,Lane,david44@example.com,Controller,Associate,2024-03-12,Meets Expectations,False,423653.0
+49,265625,tech,24,NYC,547927,Hayley,King,bradley27@example.net,Data Scientist,Bachelor,2011-08-07,Exceeds Expectations,True,565814.0
+38,196978,tech,7,SF,120343,Jesus,Conner,sflores@example.com,Senior Engineer,Master,2021-01-26,Meets Expectations,False,
+39,208840,marketing,16,Seattle,854280,Amanda,Tyler,amandaunderwood@example.net,Growth Manager,Master,2022-04-14,Meets Expectations,True,644003.0
+36,144585,sales,7,SF,958519,Jack,White,betty24@example.net,Sales Rep,Associate,2017-11-25,Exceeds Expectations,False,210873.0
+42,218750,marketing,19,NYC,145455,Hayden,Barker,lisamcintyre@example.com,Brand Manager,Bachelor,2006-11-22,Outstanding,False,554572.0
+34,276250,tech,17,SF,339687,Patrick,Simmons,lauralyons@example.com,Data Scientist,PhD,2014-09-24,Exceeds Expectations,True,204866.0
+26,156735,tech,4,Chicago,727428,Dylan,Riggs,darryljohnson@example.net,Senior Engineer,PhD,2021-03-10,Needs Improvement,False,350467.0
+31,234375,finance,15,NYC,134080,Karen,Johnson,wisejennifer@example.net,Controller,Associate,2018-06-26,Outstanding,True,878163.0
+35,148026,marketing,13,Chicago,538626,Donna,Lewis,jenkinsrachel@example.net,Growth Manager,High School,2012-07-01,Exceeds Expectations,True,508924.0
+32,174963,sales,9,NYC,803430,Madeline,Kennedy,williamsbrittney@example.com,Business Development,Master,2016-08-27,Exceeds Expectations,False,992338.0
+39,172470,sales,12,NYC,586356,Bradley,Burns,brian66@example.com,Business Development,Associate,2015-02-26,Needs Improvement,True,785718.0
+36,190056,sales,11,NYC,533674,Adam,Castillo,ibrowning@example.com,Business Development,Master,2019-08-05,Meets Expectations,False,156273.0
+46,195000,hr,25,SF,984307,Courtney,Flores,courtneyhunt@example.com,Compensation Analyst,Bachelor,2009-12-31,Outstanding,False,892961.0
+28,164462,tech,4,SF,568425,Tiffany,Jacobs,awarner@example.net,Software Engineer,Bachelor,2024-03-27,Exceeds Expectations,True,767175.0
+24,168770,tech,5,NYC,811947,Virginia,Jennings,stephanie15@example.net,Senior Engineer,Bachelor,2024-04-24,Meets Expectations,False,677908.0
+27,94996,hr,1,NYC,634342,Joshua,Lawson,thompsondeborah@example.com,HR Generalist,Bachelor,2024-05-13,Meets Expectations,False,601049.0
+32,183003,sales,10,SF,781421,Karen,Craig,zdouglas@example.org,Account Manager,Bachelor,2014-12-25,Exceeds Expectations,True,479246.0
+35,257795,tech,13,SF,172183,Christopher,Savage,joseph11@example.net,DevOps Engineer,Master,2012-07-07,Meets Expectations,False,933473.0
+36,212671,marketing,16,NYC,534481,Matthew,Ramirez,sarah89@example.org,Growth Manager,Bachelor,2016-05-14,Outstanding,False,192345.0
+36,169663,marketing,11,LA,577331,Thomas,Price,mollyramirez@example.com,Growth Manager,Master,2023-08-16,Meets Expectations,True,491945.0
+24,167322,tech,4,NYC,249074,Margaret,Cooper,ashleylarson@example.net,Software Engineer,Bachelor,2020-10-16,Exceeds Expectations,False,140477.0
+32,212990,tech,7,SF,856399,Sandra,Hill,cynthia58@example.net,Senior Engineer,PhD,2020-09-13,Exceeds Expectations,True,126783.0
+33,179367,finance,8,NYC,313737,Robert,Kerr,stevenhall@example.org,Finance Manager,High School,2023-04-26,Exceeds Expectations,False,680528.0
+43,170625,sales,16,Chicago,119182,Veronica,Smith,kylebarnett@example.com,Business Development,Bachelor,2014-06-21,Exceeds Expectations,True,
+32,118785,sales,4,NYC,442828,Phillip,Goodman,amygomez@example.org,Sales Rep,Bachelor,2023-10-11,Needs Improvement,True,697098.0
+24,99069,hr,0,SF,740689,James,Williamson,megan96@example.org,HR Generalist,Bachelor,2024-05-29,Meets Expectations,False,584972.0
+37,219353,marketing,15,SF,315821,Debra,Gray,dhanson@example.org,Growth Manager,Master,2010-08-16,Meets Expectations,True,731508.0
+38,266801,tech,16,SF,427196,Richard,Gonzalez,schneidergabriela@example.org,Data Scientist,High School,2020-12-25,Meets Expectations,False,738184.0
+38,151213,sales,13,Chicago,151531,Richard,Fischer,ywilson@example.com,Sales Engineer,Bachelor,2018-01-28,Meets Expectations,True,646032.0
+34,193389,tech,8,LA,866040,Diana,Watkins,thompsonmitchell@example.org,Senior Engineer,Bachelor,2020-09-27,Meets Expectations,True,314820.0
+46,227500,marketing,21,SF,698372,Molly,Zamora,lisa61@example.com,Brand Manager,Associate,2003-08-27,Meets Expectations,True,156071.0
+34,245511,tech,13,NYC,728134,Christopher,Castro,scottandrews@example.org,Data Scientist,Bachelor,2020-07-17,Meets Expectations,False,881084.0
+44,206430,operations,19,SF,946125,Brandon,Tucker,leechung@example.org,Operations Director,Associate,2007-02-22,Needs Improvement,True,
+30,199818,tech,6,NYC,636922,Dakota,Suarez,nperez@example.com,Tech Lead,Master,2019-03-20,Exceeds Expectations,False,619971.0
+35,306566,management,10,NYC,737482,Crystal,Walker,elizabethbrown@example.com,Executive,Bachelor,2018-11-04,Meets Expectations,False,206524.0
+23,118839,operations,3,NYC,357605,Jennifer,Mooney,arroyomatthew@example.com,Operations Manager,Bachelor,2024-04-12,Meets Expectations,False,994921.0
+26,111510,marketing,5,LA,946171,Lauren,Reynolds,nancy29@example.org,Marketing Director,Bachelor,2019-12-29,Needs Improvement,True,531266.0
+29,161393,tech,6,NYC,996510,Michaela,Parker,waltersmegan@example.com,Senior Engineer,Bachelor,2024-05-05,Meets Expectations,False,842323.0
+38,223125,tech,16,Chicago,634566,Chad,Simpson,alexis44@example.org,Data Scientist,PhD,2014-12-07,Meets Expectations,False,336473.0
+25,143215,tech,3,SF,350471,Suzanne,Schmidt,john14@example.net,Architect,Associate,2021-08-08,Meets Expectations,False,
+39,129440,hr,9,NYC,758330,Cory,Valdez,karen95@example.com,Training Specialist,Bachelor,2018-07-11,Needs Improvement,True,379086.0
+33,170510,marketing,10,NYC,231693,Allison,Ramirez,lauren02@example.org,Marketing Director,Associate,2017-12-12,Meets Expectations,False,197161.0
+25,148250,tech,1,LA,697325,Linda,Thomas,heathercollins@example.org,Software Engineer,PhD,2023-08-01,Exceeds Expectations,True,708068.0
+30,124223,operations,10,Chicago,886731,Erik,Maynard,danielcortez@example.com,Operations Director,High School,2016-06-04,Meets Expectations,True,334199.0
+34,203125,sales,13,NYC,438980,Erin,Reed,tina41@example.org,Sales Engineer,Master,2011-12-22,Meets Expectations,True,908273.0
+42,170248,sales,16,Austin,363170,David,Campbell,hjames@example.org,Sales Engineer,Bachelor,2009-07-21,Needs Improvement,False,197894.0
+35,194799,marketing,9,SF,434908,Timothy,Gardner,lsmith@example.com,Marketing Director,Bachelor,2018-04-12,Outstanding,False,370247.0
+31,183424,tech,12,LA,476258,Eric,Ayers,colemanjamie@example.org,Tech Lead,Associate,2012-07-31,Needs Improvement,True,775977.0
+47,218750,marketing,22,NYC,109506,Veronica,Burke,xdouglas@example.org,Brand Manager,Bachelor,2016-12-11,Needs Improvement,True,303020.0
+29,152448,operations,8,SF,941977,Angie,Navarro,thompsontina@example.org,Operations Director,Bachelor,2016-12-16,Meets Expectations,True,887087.0
+25,154238,management,1,LA,486323,Eric,Smith,rollinsnathan@example.org,Manager,Bachelor,2023-06-21,Meets Expectations,False,592783.0
+41,234375,finance,19,NYC,492488,Amanda,Velez,wryan@example.org,CFO,Associate,2017-12-13,Exceeds Expectations,False,131827.0
+28,102586,tech,4,Chicago,305047,Timothy,Hernandez,kanderson@example.com,Tech Lead,High School,2021-07-21,Meets Expectations,False,913113.0
+38,199657,tech,11,Chicago,892321,Mary,Khan,dvincent@example.com,Tech Lead,High School,2016-10-09,Exceeds Expectations,False,481160.0
+30,159613,finance,8,Seattle,808108,Michael,Gomez,avaughan@example.net,Finance Manager,Bachelor,2020-07-06,Needs Improvement,False,281593.0
+34,203125,sales,14,NYC,481619,Ashley,Chapman,chapmanallison@example.org,Business Development,Master,2013-11-21,Meets Expectations,False,126053.0
+36,211250,sales,16,SF,328849,Catherine,Perez,tiffanysmith@example.org,Business Development,High School,2013-08-24,Meets Expectations,False,576227.0
+36,178192,marketing,12,SF,779864,Elaine,Haynes,jacksonstephen@example.com,Content Manager,Associate,2020-10-02,Meets Expectations,False,633822.0
+30,167396,sales,8,NYC,583808,Marcus,Sanders,cranecarrie@example.com,Business Development,Bachelor,2018-03-07,Exceeds Expectations,False,201955.0
+33,159464,operations,11,NYC,657019,Brent,Morris,dixonmikayla@example.net,Supply Chain Manager,Bachelor,2022-11-15,Exceeds Expectations,False,902901.0
+44,175500,sales,17,Austin,483969,Sean,Fuentes,drodgers@example.org,Business Development,Bachelor,2020-05-02,Meets Expectations,False,446301.0
+22,129148,tech,2,Chicago,593592,Amanda,Knight,cwatkins@example.net,Tech Lead,Master,2023-09-08,Meets Expectations,True,603671.0
+34,147211,sales,4,NYC,375975,Jeffrey,Fischer,williamkennedy@example.net,Sales Rep,Master,2022-11-12,Meets Expectations,True,245129.0
+29,159639,tech,5,SF,506412,Aaron,Brown,tsullivan@example.net,Architect,Associate,2023-10-19,Meets Expectations,True,831215.0
+25,98922,marketing,0,SF,169217,Darlene,Stanton,enewman@example.org,Marketing Specialist,Associate,2024-05-29,Exceeds Expectations,False,252892.0
+43,265625,tech,19,NYC,897311,Tricia,Carrillo,duartepeter@example.org,DevOps Engineer,Bachelor,2007-12-16,Meets Expectations,False,
+32,135355,marketing,7,NYC,284359,Denise,Austin,sramos@example.org,Content Manager,Bachelor,2019-02-02,Meets Expectations,True,901264.0
+29,161749,sales,6,SF,720417,Sharon,Smith,ebaxter@example.org,Account Manager,Bachelor,2019-09-18,Outstanding,True,947506.0
+51,170625,operations,25,Chicago,936113,Christopher,Sanchez,cantukaren@example.net,Supply Chain Manager,Associate,2020-06-13,Needs Improvement,True,
+29,188128,tech,5,SF,417174,Jose,Johnson,jgoodman@example.com,Senior Engineer,Bachelor,2023-06-16,Outstanding,False,403146.0
+31,129438,hr,5,NYC,493706,Adam,Larson,dschmidt@example.org,HR Manager,Bachelor,2019-07-24,Exceeds Expectations,False,202078.0
+28,153251,tech,2,SF,113911,Curtis,Haas,csingh@example.org,Tech Lead,Associate,2023-12-28,Exceeds Expectations,True,964619.0
+29,175911,marketing,7,SF,463326,Heather,Pitts,arroyojustin@example.org,Marketing Specialist,Master,2017-07-09,Exceeds Expectations,False,608589.0
+25,121537,sales,4,NYC,295230,Michael,Moyer,hayden73@example.org,Account Manager,Bachelor,2022-02-22,Meets Expectations,True,551693.0
+43,276250,tech,17,SF,824189,Kathleen,Sloan,brittany17@example.org,DevOps Engineer,Master,2016-11-03,Meets Expectations,False,
+26,129311,hr,4,SF,668825,Wesley,Scott,adyer@example.org,HR Generalist,Master,2024-01-08,Exceeds Expectations,True,304115.0
+31,144397,sales,5,NYC,407891,Emily,Logan,woodsanthony@example.org,Sales Rep,Bachelor,2023-06-17,Outstanding,True,492410.0
+28,111959,operations,4,NYC,496739,Deanna,Velez,suttonpaige@example.org,Process Analyst,Associate,2021-06-14,Meets Expectations,False,426964.0
+33,191005,tech,9,NYC,388837,Kayla,Wilson,abbottkaren@example.org,Tech Lead,Associate,2021-11-11,Meets Expectations,True,591125.0
+33,186241,tech,9,LA,839631,James,Allen,qrobinson@example.net,Tech Lead,Associate,2016-11-17,Meets Expectations,True,280197.0
+32,144579,marketing,5,SF,749464,Gabrielle,Sullivan,johnsonsusan@example.org,Marketing Director,Bachelor,2022-02-15,Meets Expectations,False,126977.0
+29,125421,marketing,5,Austin,278488,Alexandria,Clark,billy55@example.org,Content Manager,PhD,2021-07-30,Meets Expectations,False,875417.0
+27,157738,marketing,8,NYC,219279,Hannah,Moore,aaroncampbell@example.com,Growth Manager,Bachelor,2021-12-12,Meets Expectations,True,919526.0
+46,169887,operations,18,Chicago,762547,Margaret,Dean,courtneybecker@example.org,Supply Chain Manager,Associate,2018-12-10,Meets Expectations,True,330597.0
+30,186875,sales,12,LA,277894,Brian,Moore,michaelbarrett@example.net,Sales Engineer,Master,2022-10-05,Exceeds Expectations,False,608769.0
+32,200267,tech,9,SF,374028,Jason,Gonzales,xburke@example.com,Tech Lead,High School,2016-10-20,Meets Expectations,True,275276.0
+31,194762,tech,7,SF,836171,Michael,May,reidcory@example.org,Tech Lead,High School,2022-07-27,Meets Expectations,False,649067.0
+43,203125,sales,21,NYC,277240,Lisa,Cruz,srosales@example.com,Sales Engineer,Master,2013-08-23,Meets Expectations,False,471203.0
+37,265625,tech,15,NYC,946369,David,Dixon,andersenamber@example.org,DevOps Engineer,PhD,2009-07-02,Meets Expectations,False,563606.0
+28,138050,sales,7,Seattle,944731,Scott,Wagner,jeanneharding@example.net,Account Manager,Associate,2023-01-21,Meets Expectations,True,410686.0
+32,159524,hr,13,SF,982379,Cynthia,Mcdonald,joshuajones@example.org,Training Specialist,High School,2013-05-07,Meets Expectations,True,
+34,206302,tech,12,NYC,117537,Christian,Hill,garcialisa@example.net,Data Scientist,Associate,2023-03-27,Needs Improvement,False,656860.0
+31,138053,marketing,5,SF,473386,Sara,Hodge,ialexander@example.org,Marketing Director,Bachelor,2022-05-07,Meets Expectations,True,267518.0
+31,217997,tech,13,Chicago,331699,Heather,Burton,patricia27@example.com,Data Scientist,Associate,2014-03-08,Meets Expectations,False,
+34,234754,tech,11,SF,998537,Tanner,Stephens,kenneth53@example.net,DevOps Engineer,Master,2023-01-15,Meets Expectations,False,985878.0
+32,197976,finance,10,NYC,919351,Carrie,Stewart,carterrhonda@example.org,CFO,Bachelor,2015-05-23,Meets Expectations,True,489898.0
+34,159520,sales,10,SF,194963,Sonya,Jones,andersonandrew@example.org,Account Manager,Associate,2015-11-14,Meets Expectations,False,210037.0
+41,274485,tech,14,SF,652141,Larry,Randall,victor80@example.net,DevOps Engineer,Associate,2013-03-31,Meets Expectations,False,340084.0
+31,216476,tech,14,LA,676702,Richard,Nichols,uwilson@example.net,Data Scientist,High School,2017-04-12,Meets Expectations,True,370439.0
+38,237580,tech,12,NYC,282000,John,Walker,robertjones@example.com,Architect,High School,2023-03-05,Exceeds Expectations,True,575070.0
+39,157500,hr,14,Chicago,946858,Jeffrey,Alexander,thomasrios@example.net,Training Specialist,PhD,2016-07-12,Exceeds Expectations,True,616602.0
+39,186875,operations,19,LA,884487,Derrick,Johnson,carrieroth@example.net,Operations Director,Master,2015-08-30,Meets Expectations,True,656691.0
+47,229500,tech,21,Austin,704650,Wendy,Welch,trujillokimberly@example.net,DevOps Engineer,Bachelor,2018-08-26,Meets Expectations,False,849942.0
+34,246174,tech,10,NYC,185255,Emily,Rogers,timothy33@example.org,Senior Engineer,Bachelor,2024-03-10,Exceeds Expectations,True,715270.0
+46,203125,sales,25,NYC,947754,Jerome,Bradley,jessicaharding@example.com,Sales Engineer,High School,2013-10-15,Meets Expectations,False,261995.0
+25,121592,finance,3,SF,499055,Adam,Gomez,shall@example.net,Financial Analyst,High School,2023-04-04,Meets Expectations,True,242136.0
+33,182900,tech,8,LA,464067,Alexandria,Ramos,dgillespie@example.org,Senior Engineer,Bachelor,2020-02-16,Meets Expectations,True,
+31,194233,tech,10,LA,408929,Jessica,Rogers,megan71@example.org,Senior Engineer,Bachelor,2019-01-26,Meets Expectations,True,224597.0
+40,203125,operations,17,NYC,700263,Robert,Suarez,rwaters@example.org,Operations Director,Bachelor,2009-11-04,Meets Expectations,True,208926.0
