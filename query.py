@@ -1,188 +1,87 @@
+import streamlit as st
 import pandas as pd
-import numpy as np
 from hopfield_table import HopfieldTableMemory
 
-def main():
-    # Create sample DataFrame with mixed data types
-    df = pd.DataFrame({
+# Page configuration
+st.set_page_config(page_title="Hopfield Table Query", layout="wide")
+st.markdown("""
+<style>
+    .block-container { padding-top: 1rem; }
+    .stDataFrame { font-size: 14px; }
+    .stSlider > div[data-baseweb="slider"] { margin-top: -10px; }
+</style>
+""", unsafe_allow_html=True)
+
+st.title("Hopfield Table Query")
+
+# Sample dataset
+def load_sample_data():
+    return pd.DataFrame({
         'age': [34, 28, 45, 31, 29, 52, 38, 26, 41, 35],
         'salary': [70000, 80000, 60000, 90000, 75000, 120000, 65000, 55000, 95000, 85000],
-        'dept': ['sales', 'tech', 'hr', 'tech', 'sales', 'management', 'hr', 'tech', 'sales', 'tech'],
+        'dept': ['sales', 'tech', 'hr', 'tech', 'sales', 'management', 'hr', 'tech', 'sales', 'marketing'],
         'experience': [5, 3, 12, 4, 4, 20, 8, 1, 15, 7],
         'location': ['NYC', 'SF', 'NYC', 'SF', 'LA', 'NYC', 'LA', 'SF', 'NYC', 'SF']
     })
-    
-    print("Original DataFrame:")
-    print(df)
-    print("\n" + "="*60 + "\n")
-    
-    # Initialize Hopfield Table Memory
-    print("Initializing Hopfield Table Memory...")
-    memory = HopfieldTableMemory(df)
-    
-    # Print memory statistics
+
+@st.cache_resource
+def get_memory():
+    return HopfieldTableMemory(load_sample_data())
+
+memory = get_memory()
+
+with st.expander("📊 Memory Statistics", expanded=False):
     stats = memory.get_memory_stats()
-    print("Memory Statistics:")
-    for key, value in stats.items():
-        print(f"  {key}: {value}")
-    print("\n" + "="*60 + "\n")
-    
-    # Example 1: Dense query with all features specified
-    print("Example 1: Dense query - Find employees similar to age=30, salary=85000")
-    
-    # Debug the query first
-    memory.debug_query(sparse=False, age=30, salary=85000)
-    
-    results = memory.query(age=30, salary=85000, top_n=3, visualize=False, sparse=False)
-    
-    print("Results:")
-    for i, res in enumerate(results, 1):
-        print(f"\n--- Match {i} ---")
-        print(f"Index: {res['index']}")
-        print(f"Confidence Score: {res['confidence_score']:.4f}")
-        print(f"Distance: {res['distance']:.4f}")
-        print("Matched Row:")
-        print(res['matched_row'])
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Example 2: Sparse query with partial information
-    print("Example 2: Sparse query - Find tech employees with salary around 80000")
-    
-    # Debug the sparse query
-    memory.debug_query(sparse=True, dept='tech', salary=80000)
-    
-    results = memory.query(dept='tech', salary=80000, top_n=3, visualize=False, sparse=True)
-    
-    print("Results:")
-    for i, res in enumerate(results, 1):
-        print(f"\n--- Match {i} ---")
-        print(f"Index: {res['index']}")
-        print(f"Confidence Score: {res['confidence_score']:.4f}")
-        print(f"Distance: {res['distance']:.4f}")
-        print("Matched Row:")
-        print(res['matched_row'])
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Example 3: Pattern completion vs Query - Show the difference
-    print("Example 3: Pattern completion vs Query - Understanding the difference")
-    
-    # Debug what we're looking for
-    memory.debug_query(sparse=True, age=33, dept='sales')
-    
-    print("\n--- QUERY (finds existing similar records) ---")
-    query_matches = memory.query(age=33, dept='sales', top_n=3, sparse=True)
-    for i, match in enumerate(query_matches, 1):
-        print(f"Query match {i}: Index {match['index']}, Distance {match['distance']:.4f}")
-        print(f"  {match['matched_row'].to_dict()}")
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Example 4: Query with only categorical information
-    print("Example 3: Find employees in HR department")
-    results = memory.query(dept='hr', top_n=2, visualize=False, sparse=True)
-    
-    print("Results:")
-    for i, res in enumerate(results, 1):
-        print(f"\n--- Match {i} ---")
-        print(f"Index: {res['index']}")
-        print(f"Confidence Score: {res['confidence_score']:.4f}")
-        print(f"Distance: {res['distance']:.4f}")
-        print("Matched Row:")
-        print(res['matched_row'])
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Example 5: Query with only numeric information
-    print("Example 4: Find high earners (salary > 100000)")
-    results = memory.query(salary=110000, top_n=2, visualize=False, sparse=True)
-    
-    print("Results:")
-    for i, res in enumerate(results, 1):
-        print(f"\n--- Match {i} ---")
-        print(f"Index: {res['index']}")
-        print(f"Confidence Score: {res['confidence_score']:.4f}")
-        print(f"Distance: {res['distance']:.4f}")
-        print("Matched Row:")
-        print(res['matched_row'])
-    
-    print("\n" + "="*60 + "\n")
-    
-    # Example 6: Adding new patterns and querying
-    print("Example 5: Adding new data and querying")
-    new_data = pd.DataFrame({
-        'age': [27, 44],
-        'salary': [72000, 98000],
-        'dept': ['marketing', 'tech'],
-        'experience': [3, 12],
-        'location': ['LA', 'NYC']
-    })
-    
-    print("Adding new data:")
-    print(new_data)
-    
-    memory.add_patterns(new_data)
-    print(f"\nMemory now contains {memory.get_memory_stats()['num_patterns']} patterns")
-    
-    # Query the expanded memory
-    results = memory.query(dept='marketing', top_n=2, visualize=False, sparse=True)
-    print("Query for marketing employees:")
-    for i, res in enumerate(results, 1):
-        print(f"\n--- Match {i} ---")
-        print(f"Index: {res['index']}")
-        print(f"Confidence Score: {res['confidence_score']:.4f}")
-        print("Matched Row:")
-        print(res['matched_row'])
+    st.write({k: v for k, v in stats.items()})
 
-def test_edge_cases():
-    """Test edge cases and error handling."""
-    print("\n" + "="*60)
-    print("TESTING EDGE CASES")
-    print("="*60 + "\n")
-    
-    # Edge case 1: DataFrame with only numeric columns
-    print("Edge Case 1: Only numeric columns")
-    numeric_df = pd.DataFrame({
-        'x': [1, 2, 3, 4, 5],
-        'y': [2, 4, 6, 8, 10],
-        'z': [1, 1, 2, 3, 5]
-    })
-    
-    memory_numeric = HopfieldTableMemory(numeric_df)
-    results = memory_numeric.query(x=2.5, y=5, top_n=2)
-    print("Query results:")
-    for res in results:
-        print(f"Index {res['index']}: {res['matched_row'].to_dict()}, Distance: {res['distance']:.4f}")
-    
-    print("\n" + "-"*40 + "\n")
-    
-    # Edge case 2: DataFrame with only categorical columns
-    print("Edge Case 2: Only categorical columns")
-    categorical_df = pd.DataFrame({
-        'color': ['red', 'blue', 'green', 'red', 'blue'],
-        'size': ['S', 'M', 'L', 'M', 'S'],
-        'type': ['A', 'B', 'A', 'C', 'B']
-    })
-    
-    memory_categorical = HopfieldTableMemory(categorical_df)
-    results = memory_categorical.query(color='red', size='M', top_n=2)
-    print("Query results:")
-    for res in results:
-        print(f"Index {res['index']}: {res['matched_row'].to_dict()}, Distance: {res['distance']:.4f}")
-    
-    print("\n" + "-"*40 + "\n")
-    
-    # Edge case 3: Query with unknown categorical values
-    print("Edge Case 3: Query with unknown categorical value")
-    try:
-        results = memory_categorical.query(color='purple', top_n=1, sparse=True)
-        print("Query with unknown category handled gracefully:")
-        for res in results:
-            print(f"Index {res['index']}: {res['matched_row'].to_dict()}")
-    except Exception as e:
-        print(f"Error handling unknown category: {e}")
+st.markdown("---")
 
-if __name__ == "__main__":
-    main()
-    test_edge_cases()
+st.subheader("Query Inputs")
+query_inputs = {}
+
+with st.form("query_form"):
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        age = st.text_input("Age", placeholder="e.g., 30")
+        if age.strip(): query_inputs['age'] = int(age.strip())
+
+    with col2:
+        salary = st.text_input("Salary", placeholder="e.g., 85000")
+        if salary.strip(): query_inputs['salary'] = int(salary.strip())
+
+    with col3:
+        dept = st.selectbox("Department", ["", "sales", "tech", "hr", "management", "marketing"])
+        if dept: query_inputs['dept'] = dept
+
+    col4, col5 = st.columns(2)
+    with col4:
+        experience = st.text_input("Experience (years)", placeholder="e.g., 5")
+        if experience.strip(): query_inputs['experience'] = int(experience.strip())
+
+    with col5:
+        location = st.selectbox("Location", ["", "NYC", "SF", "LA"])
+        if location: query_inputs['location'] = location
+
+    col6, col7 = st.columns([3, 2])
+    with col6:
+        top_n = st.slider("Top Matches", 1, 10, 3)
+    with col7:
+        sparse = st.checkbox("Sparse Query", value=True)
+
+    submitted = st.form_submit_button("Run Query")
+
+if submitted:
+    with st.spinner("Searching for similar entries..."):
+        results = memory.query(top_n=top_n, sparse=sparse, **query_inputs)
+
+    if results:
+        st.success(f"Found {len(results)} matches")
+        for i, res in enumerate(results, 1):
+            with st.expander(f"Match {i}  |  Confidence: {res['confidence_score']:.3f}  |  Distance: {res['distance']:.3f}"):
+                st.dataframe(pd.DataFrame([res['matched_row']]))
+    else:
+        st.warning("No results found. Try adjusting your parameters.")
+
+with st.expander("Debug Info"):
+    st.json(query_inputs)
+    memory.debug_query(sparse=sparse, **query_inputs)

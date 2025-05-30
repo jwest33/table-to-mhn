@@ -1,70 +1,56 @@
 # Hopfield Table Memory
 
-A neural associative memory system for intelligent database querying using Hopfield networks.
+An interactive, memory-efficient similarity engine for structured data, built on Hopfield networks with a Streamlit UI.
 
 ## Overview
 
-Transform any pandas DataFrame into a Hopfield-based associative memory that supports:
-- **Sparse Querying**: Find matches using only partial information
-- **Mixed Data Types**: Seamless handling of numeric and categorical columns
-- **Similarity Search**: Find similar records based on learned patterns
+Transform any pandas DataFrame into an associative memory that supports:
 
-## Key Features
-
-**Partial Queries**: Search with incomplete information
-```python
-# Find tech employees with salary around 80k (ignoring other columns)
-results = memory.query(dept='tech', salary=80000, sparse=True)
-```
-
-**Mixed Data Support**: Handles numeric, categorical, and sparse data automatically
-
-## Installation
-
-```bash
-pip install torch pandas scikit-learn matplotlib git+https://github.com/ml-jku/hopfield-layers 
-```
+- **Sparse Querying**: Match using only the fields you provide
+- **Similarity Search**: Ranked by distance and confidence score
+- **Mixed Data Support**: Works with both numeric and categorical features
+- **Interactive UI**: Powered by Streamlit with sliders, dropdowns, and debug tools
 
 ## Quick Start
 
-```python
-import pandas as pd
-from hopfield_table import HopfieldTableMemory
+### Install Requirements
 
-# Your data
-df = pd.DataFrame({
-    'age': [34, 28, 45, 31],
-    'salary': [70000, 80000, 60000, 90000], 
-    'dept': ['sales', 'tech', 'hr', 'tech']
-})
-
-# Create memory
-memory = HopfieldTableMemory(df)
-
-# Example 1) Sparse query - match only specified features
-results = memory.query(dept='tech', salary=80000, top_n=2, sparse=True)
-
-#  Example 2) Dense query - match all features  
-results = memory.query(age=30, salary=85000, sparse=False)
+```bash
+pip install torch pandas scikit-learn matplotlib streamlit git+https://github.com/ml-jku/hopfield-layers
 ```
 
-## Example 1 Results
+### 2. Run the App
 
-```
-Query: dept='tech', salary=80000
-Match 1: age=28, salary=80000, dept='tech' (Distance: 0.0000)
-Match 2: age=35, salary=85000, dept='tech' (Distance: 0.0769)
+```bash
+streamlit run query.py
 ```
 
-## Why Use This?
+### Example
 
-Unlike traditional databases that require rigid, this system:
-- Finds "similar" records even with partial information
-- Handles missing or imperfect queries gracefully
-- Provides confidence scores and similarity distances
+![Streamlit UI Preview](streamlit-app-example.png)
+
+## How It Works
+
+Each row in a DataFrame is converted to a vector:
+
+* **Numeric** features are scaled with `MinMaxScaler`
+* **Categorical** features are one-hot encoded
+* The resulting vectors are stored in a Hopfield layer for pattern association and comparison
+
+During a query:
+
+* Only the specified fields are encoded and used for distance calculation (sparse mode)
+* Top-N matches are ranked by Euclidean distance
+* Confidence = `1 / (1 + distance)`
 
 ## Files
 
-- `hopfield_table.py` - Core HopfieldTableMemory class
-- `query.py` - Usage examples and testing
-- Requires `hflayers` library for Hopfield network implementation5
+* `hopfield_table.py` — Core class with encoding, querying, and memory expansion
+* `query.py` — Streamlit interface for querying and debugging
+
+## Features
+
+* Confidence scores and raw distances per result
+* Add new rows dynamically with `add_patterns()`
+* Visualize internal behavior via debug mode
+* Built-in example dataset with `age`, `salary`, `dept`, `experience`, and `location`
