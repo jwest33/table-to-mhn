@@ -77,22 +77,10 @@ def main():
         print(f"Query match {i}: Index {match['index']}, Distance {match['distance']:.4f}")
         print(f"  {match['matched_row'].to_dict()}")
     
-    print("\n--- PATTERN COMPLETION (reconstructs/blends patterns) ---")
-    completed = memory.complete_pattern(age=33, dept='sales')
-    print("Completed Pattern (may be reconstructed, not from stored data):")
-    print(completed)
-    print(f"Completed pattern dict: {completed.to_dict()}")
-    
-    print("\n--- KEY DIFFERENCES ---")
-    print("• Query: Returns existing records that match your criteria")
-    print("• Complete Pattern: Uses Hopfield network to reconstruct what the complete pattern should look like")
-    print("• Complete Pattern may blend features from multiple stored patterns")
-    print("• Complete Pattern uses associative memory to 'fill in' missing information intelligently")
-    
     print("\n" + "="*60 + "\n")
     
     # Example 4: Query with only categorical information
-    print("Example 4: Find employees in HR department")
+    print("Example 3: Find employees in HR department")
     results = memory.query(dept='hr', top_n=2, visualize=False, sparse=True)
     
     print("Results:")
@@ -107,7 +95,7 @@ def main():
     print("\n" + "="*60 + "\n")
     
     # Example 5: Query with only numeric information
-    print("Example 5: Find high earners (salary > 100000)")
+    print("Example 4: Find high earners (salary > 100000)")
     results = memory.query(salary=110000, top_n=2, visualize=False, sparse=True)
     
     print("Results:")
@@ -122,7 +110,7 @@ def main():
     print("\n" + "="*60 + "\n")
     
     # Example 6: Adding new patterns and querying
-    print("Example 6: Adding new data and querying")
+    print("Example 5: Adding new data and querying")
     new_data = pd.DataFrame({
         'age': [27, 44],
         'salary': [72000, 98000],

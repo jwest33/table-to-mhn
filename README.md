@@ -22,7 +22,7 @@ results = memory.query(dept='tech', salary=80000, sparse=True)
 ## Installation
 
 ```bash
-pip install torch pandas scikit-learn matplotlib hflayers
+pip install torch pandas scikit-learn matplotlib git+https://github.com/ml-jku/hopfield-layers 
 ```
 
 ## Quick Start
