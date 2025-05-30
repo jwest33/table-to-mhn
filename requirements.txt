@@ -1,0 +1,6 @@
+streamlit>=1.31
+pandas>=1.5
+scikit-learn>=1.1
+matplotlib>=3.5
+torch>=2.0
+git+https://github.com/ml-jku/hopfield-layers.git
