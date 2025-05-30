@@ -30,6 +30,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.title("Hopfield Table Query System")
+gh_url = "https://github.com/jwest33"
+st.markdown("[github.com/jwest33](%s)" % gh_url)
+
 st.markdown("Upload your CSV data and perform intelligent similarity searches using Hopfield networks.")
 
 def load_default_data():
